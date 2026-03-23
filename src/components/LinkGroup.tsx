@@ -37,7 +37,13 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
             variant="ghost" 
             className="w-full flex items-center justify-between p-6 h-auto hover:bg-white/40 dark:hover:bg-black/20"
           >
-            <span className="text-xl font-semibold text-foreground/80">{title}</span>
+            <div className="flex items-center gap-3">
+              {title === '小红书' && <span className="text-2xl">📕</span>}
+              {title === '微博' && <span className="text-2xl">👁️</span>}
+              {title === '抖音' && <span className="text-2xl">🎵</span>}
+              {title === 'B站' && <span className="text-2xl">📺</span>}
+              <span className="text-xl font-semibold text-foreground/80">{title}</span>
+            </div>
             <ChevronDown 
               className={cn(
                 "h-6 w-6 transition-transform duration-300 text-muted-foreground",
@@ -64,7 +70,29 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
                   )}
                   onClick={(e) => !link.url && e.preventDefault()}
                 >
-                  <span className="font-medium">{link.title || '无标题'}</span>
+                  <div className="flex items-center gap-3">
+                    {link.url?.includes('xiaohongshu.com') && (
+                      <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-500 text-white text-[10px] font-bold shrink-0 shadow-sm leading-none">
+                        书
+                      </div>
+                    )}
+                    {link.url?.includes('weibo.com') && (
+                      <div className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-500 text-white text-[10px] font-bold shrink-0 shadow-sm leading-none">
+                        博
+                      </div>
+                    )}
+                    {link.url?.includes('bilibili.com') && (
+                      <div className="flex items-center justify-center w-6 h-6 rounded-full bg-pink-400 text-white text-[10px] font-bold shrink-0 shadow-sm leading-none">
+                        B
+                      </div>
+                    )}
+                    {link.url?.includes('douyin.com') && (
+                      <div className="flex items-center justify-center w-6 h-6 rounded-full bg-slate-900 text-white text-[10px] font-bold shrink-0 shadow-sm leading-none">
+                        音
+                      </div>
+                    )}
+                    <span className="font-medium text-sm md:text-base">{link.title || '无标题'}</span>
+                  </div>
                   {link.url && (
                     <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity text-primary" />
                   )}
