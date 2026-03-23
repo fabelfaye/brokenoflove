@@ -7,6 +7,29 @@ interface ProfileSectionProps {
 }
 
 export const ProfileSection: React.FC<ProfileSectionProps> = ({ avatarUrl, title }) => {
+  const quickLinks = [
+    { 
+      name: 'Faye 小红书', 
+      url: 'https://www.xiaohongshu.com/user/profile/67036186000000001d021a3b?xsec_token=ABgHWUNrOb1zv9UDnDcn39pOES1-pmYKjxGtAFczt5esk%3D&xsec_source=pc_search',
+      icon: '🌻'
+    },
+    { 
+      name: 'Faye 微博', 
+      url: 'https://weibo.com/u/7915617979',
+      icon: '🌻'
+    },
+    { 
+      name: 'Atom 小红书', 
+      url: 'https://www.xiaohongshu.com/user/profile/6997f023000000002603a97a?xsec_token=ABJz75ZsA05bTV4eweIrVTh9qNZWVyEZEcKCL1nszVrk8%3D&xsec_source=pc_search',
+      icon: '🍑'
+    },
+    { 
+      name: 'Atom 微博', 
+      url: 'https://weibo.com/u/8350121537',
+      icon: '🍑'
+    }
+  ];
+
   return (
     <div className="flex flex-col items-center justify-center space-y-4 py-8">
       <div className="relative">
@@ -21,6 +44,25 @@ export const ProfileSection: React.FC<ProfileSectionProps> = ({ avatarUrl, title
       <h1 className="text-3xl font-bold tracking-tight gradient-text text-center">
         {title}
       </h1>
+
+      <div className="grid grid-cols-4 gap-4 mt-6 w-full max-w-sm">
+        {quickLinks.map((link, index) => (
+          <a
+            key={index}
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center space-y-2 group"
+          >
+            <div className="w-14 h-14 rounded-full bg-white dark:bg-gray-800 shadow-md flex items-center justify-center text-2xl transition-transform group-hover:scale-110 group-active:scale-95 border border-primary/10">
+              {link.icon}
+            </div>
+            <span className="text-xs font-medium text-muted-foreground text-center line-clamp-2">
+              {link.name}
+            </span>
+          </a>
+        ))}
+      </div>
     </div>
   );
 };
