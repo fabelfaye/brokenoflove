@@ -4,9 +4,8 @@ import { LinkGroup, LinkItemData } from '@/components/LinkGroup';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
-  { title: '我的小红书主页', url: 'https://www.xiaohongshu.com' },
-  { title: '日常穿搭分享', url: 'https://www.xiaohongshu.com' },
-  { title: '爱用好物合集', url: 'https://www.xiaohongshu.com' },
+  { title: '小红书个人主页 1', url: 'https://www.xiaohongshu.com/user/profile/67036186000000001d021a3b?xsec_token=ABgHWUNrOb1zv9UDnDcn39pOES1-pmYKjxGtAFczt5esk%3D&xsec_source=pc_search' },
+  { title: '小红书个人主页 2', url: 'https://www.xiaohongshu.com/user/profile/6997f023000000002603a97a?xsec_token=ABJz75ZsA05bTV4eweIrVTh9qNZWVyEZEcKCL1nszVrk8%3D&xsec_source=pc_search' },
 ];
 
 const weiboLinks: LinkItemData[] = [
