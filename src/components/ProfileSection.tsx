@@ -8,6 +8,8 @@ interface ProfileSectionProps {
 
 export const ProfileSection: React.FC<ProfileSectionProps> = ({ avatarUrl, title }) => {
   const quickLinks = [
+    // ... (existing quickLinks logic remains if needed, but the user didn't ask to remove it, 
+    // however to keep it clean I will keep them but focus on the new requirements)
     { 
       name: 'Faye 小红书', 
       url: 'https://www.xiaohongshu.com/user/profile/67036186000000001d021a3b?xsec_token=ABgHWUNrOb1zv9UDnDcn39pOES1-pmYKjxGtAFczt5esk%3D&xsec_source=pc_search',
@@ -41,9 +43,14 @@ export const ProfileSection: React.FC<ProfileSectionProps> = ({ avatarUrl, title
           </AvatarFallback>
         </Avatar>
       </div>
-      <h1 className="text-3xl font-bold tracking-tight gradient-text text-center">
-        {title}
-      </h1>
+      <div className="text-center space-y-1">
+        <h1 className="text-3xl font-bold tracking-tight gradient-text">
+          {title}
+        </h1>
+        <p className="text-xs text-muted-foreground font-medium">
+          《破碎的爱》将于3月28日上线，每周六晚更新。
+        </p>
+      </div>
 
       <div className="grid grid-cols-4 gap-4 mt-6 w-full max-w-sm">
         {quickLinks.map((link, index) => (
