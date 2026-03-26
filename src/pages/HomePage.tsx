@@ -17,9 +17,12 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
+  { title: 'Official...', url: 'https://weibo.com/7985880343/QxRM9uIM2?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: '弯弯字幕组...', url: 'https://weibo.com/7392264056/QxRKslioB?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: '不是一见钟...', url: 'https://weibo.com/7248205323/QxSFFm3Xr?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: '泰剧破碎的...', url: 'https://weibo.com/7746558279/QxRPTaOZ6?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: '破碎的爱正...', url: 'https://weibo.com/1862232035/QxRuXxGpj?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: '泰剧破碎的...', url: 'https://weibo.com/5541627800/QxQrtsXw3?refer_flag=1001030103_', updateDate: '3月26日' },
-  { title: '弯弯字幕组...', url: 'https://weibo.com/7392264056/QxRKslioB?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: 'Broken...', url: 'https://weibo.com/7392264056/QvJA88i6v?refer_flag=1001030103_', updateDate: '3月25日' },
   { title: '破碎的爱...', url: 'https://weibo.com/5158442910/QvUC82ZG5?refer_flag=1001030103_', updateDate: '3月25日' },
   { title: '每个人都是...', url: 'https://weibo.com/5165706091/QxiZk67ZA?refer_flag=1001030103_', updateDate: '3月25日' },
@@ -33,7 +36,7 @@ const douyinLinks: LinkItemData[] = [
   { title: '破碎的爱预...', url: 'https://www.douyin.com/video/7621429265624971162', updateDate: '3月26日' },
   { title: '中翻首播预...', url: 'https://www.douyin.com/video/7621430255382826292', updateDate: '3月26日' },
   { title: '破碎的爱官...', url: 'https://www.douyin.com/video/7621157841429480163', updateDate: '3月25日' },
-  { title: '新剧官方海...', url: 'https://www.douyin.com/video/7621157419745423055', updateDate: '3月25日' },
+  { title: '更新人物海...', url: 'https://www.douyin.com/video/7621164830267192805', updateDate: '3月25日' },
   { title: '我想知道哪...', url: 'https://www.douyin.com/video/7620814476829625459', updateDate: '3月25日' },
 
 ];
