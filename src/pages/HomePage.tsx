@@ -7,15 +7,9 @@ const xhsLinks: LinkItemData[] = [
   { title: '她泰的恨海...', url: 'https://www.xiaohongshu.com/explore/69c4be450000000022025542', updateDate: '3月26日' },
   { title: 'BrokenOf...', url: 'https://www.xiaohongshu.com/explore/69c4c5db000000002200fdf4', updateDate: '3月26日' },
   { title: '这预告片可...', url: 'https://www.xiaohongshu.com/explore/69c4c38d0000000023020390', updateDate: '3月26日' },
-  { title: '第一集预告...', url: 'https://www.xiaohongshu.com/explore/69c32c97000000001a0343b4?xsec_token=ABQTZsg7Vpo9QqWRiMIjJ5WEfMYiH3iZglUQ7vEnh7T3M=&xsec_source=', updateDate: '3月26日' },
-  { title: 'Fabel剧...', url: 'https://www.xiaohongshu.com/explore/69c29a9f000000002102e099?xsec_token=ABp2a9yw0OM8NwMEQs8DQnHZE5uHzbdxD3u-i7LM_DkCs=&xsec_source=', updateDate: '3月26日' },
-  { title: '破碎的爱宣...', url: 'https://www.xiaohongshu.com/explore/69c0daf7000000001f004a34?xsec_token=ABv0wnvbPea_N1YszV905Dz4XOrs6Qkf41VXdh9HAB8Os=&xsec_source=', updateDate: '3月26日' },
-  { title: '【破碎的爱】Broken Of Love', url: 'https://www.xiaohongshu.com/explore/69bc158f0000000023024f08?xsec_token=ABNmoG-xTajl5p2jZSUJLBIZrC3OXFiuNN9DzF_y-IOB4=&xsec_source=', updateDate: '3月25日' },
-  { title: '新剧官方海报', url: 'https://www.xiaohongshu.com/explore/69bb795f000000002301d8b8?xsec_token=ABJEWaglzbgJHi3Wd-glrjY37V9S2b1H4KECU8aFMZOqs=&xsec_source=', updateDate: '3月25日' },
-  { title: 'Fabel更新破碎的愛', url: 'https://www.xiaohongshu.com/explore/69bd3943000000001a036790?xsec_token=ABc3SSyR5a9ICdRuX2M65wALq_ffjjWlbu_Ki3URy3QoQ=&xsec_source=', updateDate: '3月25日' },
-  { title: '跟Arisa的睡袍说嗨嗨', url: 'https://www.xiaohongshu.com/explore/69bd053e000000002301496a?xsec_token=ABc3SSyR5a9ICdRuX2M65wAKfrA09cJaYhzaaPohqWQns=&xsec_source=', updateDate: '3月24日' },
-  { title: '成熟魅力让人移不开眼', url: 'https://www.xiaohongshu.com/explore/69b936fb0000000028009de9?xsec_token=ABU35O7jLRG_mMhBb201KKMu0CBNKyUYjD82fkUJmgYvE=&xsec_source=', updateDate: '3月24日' },
-  { title: 'Alisa大人', url: 'https://www.xiaohongshu.com/explore/69b8db9b00000000230114c9?xsec_token=ABWMjubmS7QUVgKZ_3QGsp5rq1iYGnH3Ubx8GuV_mmFxM=&xsec_source=', updateDate: '3月24日' },
+  { title: '破碎的爱...', url: 'https://www.xiaohongshu.com/explore/69bc158f0000000023024f08?xsec_token=ABNmoG-xTajl5p2jZSUJLBIZrC3OXFiuNN9DzF_y-IOB4=&xsec_source=', updateDate: '3月25日' },
+  { title: '新剧官方海...', url: 'https://www.xiaohongshu.com/explore/69bb795f000000002301d8b8?xsec_token=ABJEWaglzbgJHi3Wd-glrjY37V9S2b1H4KECU8aFMZOqs=&xsec_source=', updateDate: '3月25日' },
+  { title: '更新破碎的...', url: 'https://www.xiaohongshu.com/explore/69bd3943000000001a036790?xsec_token=ABc3SSyR5a9ICdRuX2M65wALq_ffjjWlbu_Ki3URy3QoQ=&xsec_source=', updateDate: '3月25日' },
 ];
 
 const youtubeLinks: LinkItemData[] = [
@@ -34,7 +28,7 @@ const weiboLinks: LinkItemData[] = [
 const douyinLinks: LinkItemData[] = [
   { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7621212974413931145', updateDate: '3月26日' },
   { title: '新剧上线预...', url: 'https://www.douyin.com/video/7621204103167490971', updateDate: '3月26日' },
-  { title: 'Fabel更...', url: 'https://www.douyin.com/video/7621192804287295588', updateDate: '3月26日' },
+  { title: '弯弯字幕组...', url: 'https://weibo.com/7392264056/5280714365075605, updateDate: '3月26日' },
   { title: '破碎的爱官...', url: 'https://www.douyin.com/video/7621157841429480163', updateDate: '3月25日' },
   { title: '新剧官方海...', url: 'https://www.douyin.com/video/7621157419745423055', updateDate: '3月25日' },
   { title: '我想知道哪...', url: 'https://www.douyin.com/video/7620814476829625459', updateDate: '3月25日' },
