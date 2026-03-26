@@ -36,9 +36,12 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
-  { title: '破碎的爱正...', url: 'https://www.bilibili.com/video/BV1enQUB9EX1', updateDate: '3月26日' },
-  { title: '破碎的爱精...', url: 'https://www.bilibili.com/video/BV1ZTAjzYEk1', updateDate: '3月26日' },
-  { title: '剧组幕后花...', url: 'https://www.bilibili.com/video/BV1bAwrzJEWg', updateDate: '3月26日' },
+  { title: '泰剧破碎的爱...', url: 'https://www.bilibili.com/video/BV18sXnB3E2L', updateDate: '3月26日' },
+  { title: 'FayeAtom《破...', url: 'https://www.bilibili.com/video/BV1bbXnBBESi', updateDate: '3月26日' },
+  { title: '正式预告片...', url: 'https://www.bilibili.com/video/BV1WpXWBgE6h', updateDate: '3月26日' },
+  { title: '泰国人双女...', url: 'https://www.bilibili.com/video/BV13gXWBEE53', updateDate: '3月26日' },
+  { title: '官方正式预...', url: 'https://www.bilibili.com/video/BV1DtXnBuEgz', updateDate: '3月26日' },
+  { title: '破碎的爱预...', url: 'https://www.bilibili.com/video/BV1ePXWBpE4B', updateDate: '3月26日' },
   { title: '可是又在期待27号', url: 'https://www.bilibili.com/video/BV1sPAwzuEtC/?spm_id_from=333.337.search-card.all.click&vd_source=14bfb7ac7563c677fb44a5844d8c81ab', updateDate: '3月25日' },
   { title: '【FayeAtom】啧啧啧', url: 'https://www.bilibili.com/video/BV1JeAHznEBL/?spm_id_from=333.337.search-card.all.click&vd_source=14bfb7ac7563c677fb44a5844d8c81ab', updateDate: '3月25日' },
   { title: '近期剧宣-合集', url: 'https://www.bilibili.com/video/BV1tUwazoEqm/?spm_id_from=333.337.search-card.all.click&vd_source=14bfb7ac7563c677fb44a5844d8c81ab', updateDate: '3月25日' },
