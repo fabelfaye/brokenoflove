@@ -7,9 +7,9 @@ const xhsLinks: LinkItemData[] = [
   { title: '她泰的恨海...', url: 'https://www.xiaohongshu.com/explore/69c4be450000000022025542', updateDate: '3月26日' },
   { title: 'BrokenOf...', url: 'https://www.xiaohongshu.com/explore/69c4c5db000000002200fdf4', updateDate: '3月26日' },
   { title: '这预告片可...', url: 'https://www.xiaohongshu.com/explore/69c4c38d0000000023020390', updateDate: '3月26日' },
-  { title: '破碎的爱...', url: 'https://www.xiaohongshu.com/explore/69bc158f0000000023024f08?xsec_token=ABNmoG-xTajl5p2jZSUJLBIZrC3OXFiuNN9DzF_y-IOB4=&xsec_source=', updateDate: '3月25日' },
-  { title: '新剧官方海...', url: 'https://www.xiaohongshu.com/explore/69bb795f000000002301d8b8?xsec_token=ABJEWaglzbgJHi3Wd-glrjY37V9S2b1H4KECU8aFMZOqs=&xsec_source=', updateDate: '3月25日' },
-  { title: '更新破碎的...', url: 'https://www.xiaohongshu.com/explore/69bd3943000000001a036790?xsec_token=ABc3SSyR5a9ICdRuX2M65wALq_ffjjWlbu_Ki3URy3QoQ=&xsec_source=', updateDate: '3月25日' },
+  { title: '【破碎的爱】Broken Of Love', url: 'https://www.xiaohongshu.com/explore/69bc158f0000000023024f08?xsec_token=ABNmoG-xTajl5p2jZSUJLBIZrC3OXFiuNN9DzF_y-IOB4=&xsec_source=', updateDate: '3月25日' },
+  { title: '新剧官方海报', url: 'https://www.xiaohongshu.com/explore/69bb795f000000002301d8b8?xsec_token=ABJEWaglzbgJHi3Wd-glrjY37V9S2b1H4KECU8aFMZOqs=&xsec_source=', updateDate: '3月25日' },
+  { title: 'Fabel更新破碎的愛', url: 'https://www.xiaohongshu.com/explore/69bd3943000000001a036790?xsec_token=ABc3SSyR5a9ICdRuX2M65wALq_ffjjWlbu_Ki3URy3QoQ=&xsec_source=', updateDate: '3月25日' },
 ];
 
 const youtubeLinks: LinkItemData[] = [
@@ -19,7 +19,7 @@ const youtubeLinks: LinkItemData[] = [
 const weiboLinks: LinkItemData[] = [
   { title: '破碎的爱正...', url: 'https://weibo.com/1862232035/QxRuXxGpj?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: '泰剧破碎的...', url: 'https://weibo.com/5541627800/QxQrtsXw3?refer_flag=1001030103_', updateDate: '3月26日' },
-  { title: 'Fabel官...', url: 'https://weibo.com/7392264056/QxKubi4HF?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: '弯弯字幕组...', url: 'https://weibo.com/7392264056/QxRKslioB_flag=1001030103_', updateDate: '3月26日' },
   { title: 'Broken...', url: 'https://weibo.com/7392264056/QvJA88i6v?refer_flag=1001030103_', updateDate: '3月25日' },
   { title: '破碎的爱...', url: 'https://weibo.com/5158442910/QvUC82ZG5?refer_flag=1001030103_', updateDate: '3月25日' },
   { title: '每个人都是...', url: 'https://weibo.com/5165706091/QxiZk67ZA?refer_flag=1001030103_', updateDate: '3月25日' },
@@ -28,7 +28,7 @@ const weiboLinks: LinkItemData[] = [
 const douyinLinks: LinkItemData[] = [
   { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7621212974413931145', updateDate: '3月26日' },
   { title: '新剧上线预...', url: 'https://www.douyin.com/video/7621204103167490971', updateDate: '3月26日' },
-  { title: '弯弯字幕组...', url: 'https://weibo.com/7392264056/5280714365075605, updateDate: '3月26日' },
+  { title: 'Fabel更...', url: 'https://www.douyin.com/video/7621192804287295588', updateDate: '3月26日' },
   { title: '破碎的爱官...', url: 'https://www.douyin.com/video/7621157841429480163', updateDate: '3月25日' },
   { title: '新剧官方海...', url: 'https://www.douyin.com/video/7621157419745423055', updateDate: '3月25日' },
   { title: '我想知道哪...', url: 'https://www.douyin.com/video/7620814476829625459', updateDate: '3月25日' },
