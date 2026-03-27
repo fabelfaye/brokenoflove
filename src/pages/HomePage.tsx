@@ -6,7 +6,7 @@ import { motion } from 'motion/react';
 const xhsLinks: LinkItemData[] = [
   { title: '是不是泰德兰…', url: 'https://www.xiaohongshu.com/explore/69c6719b000000001a024940', updateDate: '3月27日' },
   { title: '首映礼记者采…', url: 'https://www.xiaohongshu.com/explore/69c665d40000000023015a14', updateDate: '3月27日' },
-  { title: '永远的top…', url: 'https://www.xiaohongshu.com/explore/69c659c3000000002102fcdd', updateDate: '3月27日' }
+  { title: '永远的top…', url: 'https://www.xiaohongshu.com/explore/69c659c3000000002102fcdd', updateDate: '3月27日' },
   { title: '拍照间隙也...', url: 'https://www.xiaohongshu.com/explore/69c648a900000000200381f6', updateDate: '3月27日' },
   { title: '深切感受到...', url: 'https://www.xiaohongshu.com/explore/69c64877000000001b0223d4', updateDate: '3月27日' },
   { title: '一起笑的真...', url: 'https://www.xiaohongshu.com/explore/69c64433000000001d01becc', updateDate: '3月27日' },
@@ -42,7 +42,7 @@ const weiboLinks: LinkItemData[] = [
 const douyinLinks: LinkItemData[] = [
   { title: '来看看超可...', url: 'https://www.douyin.com/video/7621904992903154082', updateDate: '3月27日' },
   { title: '要得到这个...', url: 'https://www.douyin.com/video/7621904349518955491', updateDate: '3月27日' },
-  { title: '依旧1和0之...', url: 'https://www.douyin.com/video/7621900710166852852', updateDate: '3月27日' }
+  { title: '依旧1和0之...', url: 'https://www.douyin.com/video/7621900710166852852', updateDate: '3月27日' },
   { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7621855826559801555', updateDate: '3月27日' },
   { title: '谁是1谁是0...', url: 'https://www.douyin.com/video/7621855011043635882', updateDate: '3月27日' },
   { title: '莉莉要这样...', url: 'https://www.douyin.com/video/7621857175534907337', updateDate: '3月27日' },  
@@ -60,7 +60,7 @@ const douyinLinks: LinkItemData[] = [
 
 const bilibiliLinks: LinkItemData[] = [
   { title: '要得到这个...', url: 'https://www.bilibili.com/video/BV16zXNB1EL4', updateDate: '3月27日' },
-  { title: '她已经彻底...', url: 'https://www.bilibili.com/video/BV1H5XKBQEBE', updateDate: '3月27日' }
+  { title: '她已经彻底...', url: 'https://www.bilibili.com/video/BV1H5XKBQEBE', updateDate: '3月27日' },
   { title: '这俩是真的...', url: 'https://www.bilibili.com/video/BV1PQXKB4EB5', updateDate: '3月27日' },
   { title: '明天晚上9点...', url: 'https://www.bilibili.com/video/BV1gkXKBYEWW', updateDate: '3月27日' },
   { title: '破碎的爱今...', url: 'https://www.bilibili.com/video/BV1tZXABREx6', updateDate: '3月27日' },
