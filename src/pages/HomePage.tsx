@@ -4,6 +4,9 @@ import { LinkGroup, LinkItemData } from '@/components/LinkGroup';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
+  { title: '是不是泰德兰…', url: 'https://www.xiaohongshu.com/explore/69c6719b000000001a024940', updateDate: '3月27日' },
+  { title: '首映礼记者采…', url: 'https://www.xiaohongshu.com/explore/69c665d40000000023015a14', updateDate: '3月27日' },
+  { title: '永远的top…', url: 'https://www.xiaohongshu.com/explore/69c659c3000000002102fcdd', updateDate: '3月27日' }
   { title: '拍照间隙也...', url: 'https://www.xiaohongshu.com/explore/69c648a900000000200381f6', updateDate: '3月27日' },
   { title: '深切感受到...', url: 'https://www.xiaohongshu.com/explore/69c64877000000001b0223d4', updateDate: '3月27日' },
   { title: '一起笑的真...', url: 'https://www.xiaohongshu.com/explore/69c64433000000001d01becc', updateDate: '3月27日' },
@@ -24,7 +27,7 @@ const youtubeLinks: LinkItemData[] = [
 const weiboLinks: LinkItemData[] = [
   { title: '其实我想上...', url: 'https://weibo.com/5541627800/Qy2zpmuSg?refer_flag=1001030103_', updateDate: '3月27日' },
   { title: '咱也不知道...', url: 'https://weibo.com/1658911724/Qy2zijelZ?refer_flag=1001030103_', updateDate: '3月27日' },
-  { title: 'Boken...', url: 'https://weibo.com/7949018248/Qy2yW8uIe?refer_flag=1001030103__', updateDate: '3月27日' },
+  { title: 'Boken...', url: 'https://weibo.com/7949018248/Qy2yW8uIe?refer_flag=1001030103_', updateDate: '3月27日' },
   { title: 'Official...', url: 'https://weibo.com/7985880343/QxRM9uIM2?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: '弯弯字幕组...', url: 'https://weibo.com/7392264056/QxRKslioB?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: '不是一见钟...', url: 'https://weibo.com/7248205323/QxSFFm3Xr?refer_flag=1001030103_', updateDate: '3月26日' },
