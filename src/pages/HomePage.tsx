@@ -42,6 +42,8 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
+  { title: '破碎的爱今...', url: 'https://www.bilibili.com/video/BV1tZXABREx6', updateDate: '3月27日' },
+  { title: '明日首播倒...', url: 'https://www.bilibili.com/video/BV15tXPBNEFJ', updateDate: '3月27日' },
   { title: '泰剧破碎的爱...', url: 'https://www.bilibili.com/video/BV18sXnB3E2L', updateDate: '3月26日' },
   { title: 'FayeAtom《破...', url: 'https://www.bilibili.com/video/BV1bbXnBBESi', updateDate: '3月26日' },
   { title: '正式预告片...', url: 'https://www.bilibili.com/video/BV1WpXWBgE6h', updateDate: '3月26日' },
