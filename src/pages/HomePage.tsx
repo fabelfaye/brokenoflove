@@ -4,6 +4,9 @@ import { LinkGroup, LinkItemData } from '@/components/LinkGroup';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
+  { title: '拍照间隙也...', url: 'https://www.xiaohongshu.com/explore/69c648a900000000200381f6', updateDate: '3月27日' },
+  { title: '深切感受到...', url: 'https://www.xiaohongshu.com/explore/69c64877000000001b0223d4', updateDate: '3月27日' },
+  { title: '一起笑的真...', url: 'https://www.xiaohongshu.com/explore/69c64433000000001d01becc', updateDate: '3月27日' },
   { title: '她泰的恨海...', url: 'https://www.xiaohongshu.com/explore/69c4be450000000022025542', updateDate: '3月26日' },
   { title: 'BrokenOf...', url: 'https://www.xiaohongshu.com/explore/69c4c5db000000002200fdf4', updateDate: '3月26日' },
   { title: '这预告片可...', url: 'https://www.xiaohongshu.com/explore/69c4c38d0000000023020390', updateDate: '3月26日' },
@@ -33,6 +36,7 @@ const weiboLinks: LinkItemData[] = [
 const douyinLinks: LinkItemData[] = [
   { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7621855826559801555', updateDate: '3月27日' },
   { title: '谁是1谁是0...', url: 'https://www.douyin.com/video/7621855011043635882', updateDate: '3月27日' },
+  { title: '莉莉要这样...', url: 'https://www.douyin.com/video/7621857175534907337', updateDate: '3月27日' },  
   { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7621212974413931145', updateDate: '3月26日' },
   { title: '新剧上线预...', url: 'https://www.douyin.com/video/7621204103167490971', updateDate: '3月26日' },
   { title: 'Fabel更...', url: 'https://www.douyin.com/video/7621192804287295588', updateDate: '3月26日' },
@@ -46,8 +50,10 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
+  { title: '这俩是真的...', url: 'https://www.bilibili.com/video/BV1PQXKB4EB5', updateDate: '3月27日' },
+  { title: '明天晚上9点...', url: 'https://www.bilibili.com/video/BV1gkXKBYEWW', updateDate: '3月27日' },
   { title: '破碎的爱今...', url: 'https://www.bilibili.com/video/BV1tZXABREx6', updateDate: '3月27日' },
-  { title: '明日首播倒...', url: 'https://www.bilibili.com/video/BV15tXPBNEFJ', updateDate: '3月27日' },
+  { title: '快乐大本营...', url: 'https://www.bilibili.com/video/BV15tXPBNEFJ', updateDate: '3月27日' },
   { title: '泰剧破碎的爱...', url: 'https://www.bilibili.com/video/BV18sXnB3E2L', updateDate: '3月26日' },
   { title: 'FayeAtom《破...', url: 'https://www.bilibili.com/video/BV1bbXnBBESi', updateDate: '3月26日' },
   { title: '正式预告片...', url: 'https://www.bilibili.com/video/BV1WpXWBgE6h', updateDate: '3月26日' },
