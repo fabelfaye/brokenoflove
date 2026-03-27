@@ -37,6 +37,9 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
+  { title: '来看看超可...', url: 'https://www.douyin.com/video/7621904992903154082', updateDate: '3月27日' },
+  { title: '要得到这个...', url: 'https://www.douyin.com/video/7621904349518955491', updateDate: '3月27日' },
+  { title: '依旧1和0之...', url: 'https://www.douyin.com/video/7621900710166852852', updateDate: '3月27日' }
   { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7621855826559801555', updateDate: '3月27日' },
   { title: '谁是1谁是0...', url: 'https://www.douyin.com/video/7621855011043635882', updateDate: '3月27日' },
   { title: '莉莉要这样...', url: 'https://www.douyin.com/video/7621857175534907337', updateDate: '3月27日' },  
@@ -53,6 +56,8 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
+  { title: '要得到这个...', url: 'https://www.bilibili.com/video/BV16zXNB1EL4', updateDate: '3月27日' },
+  { title: '她已经彻底...', url: 'https://www.bilibili.com/video/BV1H5XKBQEBE', updateDate: '3月27日' }
   { title: '这俩是真的...', url: 'https://www.bilibili.com/video/BV1PQXKB4EB5', updateDate: '3月27日' },
   { title: '明天晚上9点...', url: 'https://www.bilibili.com/video/BV1gkXKBYEWW', updateDate: '3月27日' },
   { title: '破碎的爱今...', url: 'https://www.bilibili.com/video/BV1tZXABREx6', updateDate: '3月27日' },
