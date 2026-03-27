@@ -4,6 +4,9 @@ import { LinkGroup, LinkItemData } from '@/components/LinkGroup';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
+  { title: '苦尽甘来…', url: 'https://www.xiaohongshu.com/explore/69c68d44000000001a02214a', updateDate: '3月27日' },
+  { title: '这可是第一…', url: 'https://www.xiaohongshu.com/explore/69c67f51000000001a036386', updateDate: '3月27日' },
+  { title: '可以稍微讲…', url: 'https://www.xiaohongshu.com/explore/69c67f29000000001f005bb2', updateDate: '3月27日' },
   { title: '是不是泰德兰…', url: 'https://www.xiaohongshu.com/explore/69c6719b000000001a024940', updateDate: '3月27日' },
   { title: '首映礼记者采…', url: 'https://www.xiaohongshu.com/explore/69c665d40000000023015a14', updateDate: '3月27日' },
   { title: '永远的top…', url: 'https://www.xiaohongshu.com/explore/69c659c3000000002102fcdd', updateDate: '3月27日' },
@@ -25,6 +28,9 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
+  { title: '我听不懂...', url: 'https://weibo.com/1658911724/Qy4CDdmTY?refer_flag=1001030103_', updateDate: '3月27日' },
+  { title: '今天的圆满...', url: 'https://weibo.com/5541627800/Qy4CzFu29?refer_flag=1001030103_', updateDate: '3月27日' },
+  { title: '喂吃的结果...', url: 'https://weibo.com/5892418943/Qy4AzCrnb?refer_flag=1001030103__', updateDate: '3月27日' },
   { title: '其实我想上...', url: 'https://weibo.com/5541627800/Qy2zpmuSg?refer_flag=1001030103_', updateDate: '3月27日' },
   { title: '咱也不知道...', url: 'https://weibo.com/1658911724/Qy2zijelZ?refer_flag=1001030103_', updateDate: '3月27日' },
   { title: 'Boken...', url: 'https://weibo.com/7949018248/Qy2yW8uIe?refer_flag=1001030103_', updateDate: '3月27日' },
@@ -40,6 +46,9 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
+  { title: '追星怎么可...', url: 'https://www.douyin.com/video/7621940366473061614', updateDate: '3月27日' },
+  { title: '王者归来新...', url: 'https://www.douyin.com/video/7621934919556645297', updateDate: '3月27日' },
+  { title: 'Faye演唱...', url: 'https://www.douyin.com/video/7621932139910624137', updateDate: '3月27日' },
   { title: '来看看超可...', url: 'https://www.douyin.com/video/7621904992903154082', updateDate: '3月27日' },
   { title: '要得到这个...', url: 'https://www.douyin.com/video/7621904349518955491', updateDate: '3月27日' },
   { title: '依旧1和0之...', url: 'https://www.douyin.com/video/7621900710166852852', updateDate: '3月27日' },
@@ -59,6 +68,9 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
+  { title: '第一次合唱...', url: 'https://www.bilibili.com/video/BV1SwXMBBEBm', updateDate: '3月27日' },
+  { title: '首映双人采...', url: 'https://www.bilibili.com/video/BV1LeXMB2E75', updateDate: '3月27日' },
+  { title: 'faye现场演...', url: 'https://www.bilibili.com/video/BV136XMBkEKW', updateDate: '3月27日' },
   { title: '要得到这个...', url: 'https://www.bilibili.com/video/BV16zXNB1EL4', updateDate: '3月27日' },
   { title: '她已经彻底...', url: 'https://www.bilibili.com/video/BV1H5XKBQEBE', updateDate: '3月27日' },
   { title: '这俩是真的...', url: 'https://www.bilibili.com/video/BV1PQXKB4EB5', updateDate: '3月27日' },
