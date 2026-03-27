@@ -31,6 +31,8 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
+  { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7621855826559801555', updateDate: '3月27日' },
+  { title: '谁是1谁是0...', url: 'https://www.douyin.com/video/7621855011043635882', updateDate: '3月27日' },
   { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7621212974413931145', updateDate: '3月26日' },
   { title: '新剧上线预...', url: 'https://www.douyin.com/video/7621204103167490971', updateDate: '3月26日' },
   { title: 'Fabel更...', url: 'https://www.douyin.com/video/7621192804287295588', updateDate: '3月26日' },
