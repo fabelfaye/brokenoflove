@@ -4,8 +4,6 @@ import { LinkGroup, LinkItemData } from '@/components/LinkGroup';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
-  { title: '破碎的爱今...', url: 'https://www.xiaohongshu.com/explore/69c53955000000001e00edca?xsec_token=ABB3GpyHH3kuZaukeMzEdXVYOxQVxdz-ShXlrbrdKL8DQ=&xsec_source=', updateDate: '3月27日' },
-  { title: '明日首播倒...', url: 'https://www.xiaohongshu.com/explore/69c61bbe000000002202919f?xsec_token=AB3Hy3p8reX-kTpNn_jFzBvGB8y1IT29B9n5wor_ZnNK4=&xsec_source=', updateDate: '3月27日' },
   { title: '她泰的恨海...', url: 'https://www.xiaohongshu.com/explore/69c4be450000000022025542', updateDate: '3月26日' },
   { title: 'BrokenOf...', url: 'https://www.xiaohongshu.com/explore/69c4c5db000000002200fdf4', updateDate: '3月26日' },
   { title: '这预告片可...', url: 'https://www.xiaohongshu.com/explore/69c4c38d0000000023020390', updateDate: '3月26日' },
@@ -16,14 +14,9 @@ const xhsLinks: LinkItemData[] = [
 
 const youtubeLinks: LinkItemData[] = [
   { title: 'Fabel油管海外平台', url: 'https://www.youtube.com/@FabelEntertainment' },
-  { title: '国内播放平台①（明日上线）', url: '' },
-  { title: '国内播放平台②（明日上线）', url: '' },
 ];
 
 const weiboLinks: LinkItemData[] = [
-  { title: '破碎的爱今...', url: 'https://weibo.com/1658911724/Qy1mkbFm7?refer_flag=1001030103_', updateDate: '3月27日' },
-  { title: '明日首播倒...', url: 'https://weibo.com/5541627800/Qy1m4wXxh?refer_flag=1001030103_', updateDate: '3月27日' },
-  { title: '破碎的爱即...', url: 'https://weibo.com/1414980981/Qy0BYzcPA?refer_flag=1001030103_', updateDate: '3月27日' },
   { title: 'Official...', url: 'https://weibo.com/7985880343/QxRM9uIM2?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: '弯弯字幕组...', url: 'https://weibo.com/7392264056/QxRKslioB?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: '不是一见钟...', url: 'https://weibo.com/7248205323/QxSFFm3Xr?refer_flag=1001030103_', updateDate: '3月26日' },
@@ -36,9 +29,6 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
-  { title: '破碎的爱今...', url: 'https://www.douyin.com/video/7621815795837028581', updateDate: '3月27日' },
-  { title: '首播倒计时...', url: 'https://www.douyin.com/video/7621805120732474353', updateDate: '3月27日' },
-  { title: '破碎的爱明...', url: 'https://www.douyin.com/video/7621768012114249702', updateDate: '3月27日' },
   { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7621212974413931145', updateDate: '3月26日' },
   { title: '新剧上线预...', url: 'https://www.douyin.com/video/7621204103167490971', updateDate: '3月26日' },
   { title: 'Fabel更...', url: 'https://www.douyin.com/video/7621192804287295588', updateDate: '3月26日' },
@@ -49,9 +39,9 @@ const douyinLinks: LinkItemData[] = [
   { title: '更新人物海...', url: 'https://www.douyin.com/video/7621164830267192805', updateDate: '3月25日' },
   { title: '我想知道哪...', url: 'https://www.douyin.com/video/7620814476829625459', updateDate: '3月25日' },
 
+];
+
 const bilibiliLinks: LinkItemData[] = [
-  { title: '破碎的爱今...', url: 'https://www.bilibili.com/video/BV1tZXABREx6/?spm_id_from=333.337.search-card.all.click&vd_source=14bfb7ac7563c677fb44a5844d8c81ab', updateDate: '3月27日' },
-  { title: '明日首播倒...', url: 'https://www.bilibili.com/video/BV15tXPBNEFJ/?spm_id_from=333.337.search-card.all.click&vd_source=14bfb7ac7563c677fb44a5844d8c81ab', updateDate: '3月27日' },
   { title: '泰剧破碎的爱...', url: 'https://www.bilibili.com/video/BV18sXnB3E2L', updateDate: '3月26日' },
   { title: 'FayeAtom《破...', url: 'https://www.bilibili.com/video/BV1bbXnBBESi', updateDate: '3月26日' },
   { title: '正式预告片...', url: 'https://www.bilibili.com/video/BV1WpXWBgE6h', updateDate: '3月26日' },
