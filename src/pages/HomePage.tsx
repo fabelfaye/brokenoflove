@@ -4,21 +4,30 @@ import { LinkGroup, LinkItemData } from '@/components/LinkGroup';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
-  { title: '苦尽甘来…', url: 'https://www.xiaohongshu.com/explore/69c68d44000000001a02214a', updateDate: '3月27日' },
-  { title: '这可是第一…', url: 'https://www.xiaohongshu.com/explore/69c67f51000000001a036386', updateDate: '3月27日' },
-  { title: '可以稍微讲…', url: 'https://www.xiaohongshu.com/explore/69c67f29000000001f005bb2', updateDate: '3月27日' },
-  { title: '是不是泰德兰…', url: 'https://www.xiaohongshu.com/explore/69c6719b000000001a024940', updateDate: '3月27日' },
-  { title: '首映礼记者采…', url: 'https://www.xiaohongshu.com/explore/69c665d40000000023015a14', updateDate: '3月27日' },
-  { title: '永远的top…', url: 'https://www.xiaohongshu.com/explore/69c659c3000000002102fcdd', updateDate: '3月27日' },
-  { title: '拍照间隙也...', url: 'https://www.xiaohongshu.com/explore/69c648a900000000200381f6', updateDate: '3月27日' },
-  { title: '深切感受到...', url: 'https://www.xiaohongshu.com/explore/69c64877000000001b0223d4', updateDate: '3月27日' },
-  { title: '一起笑的真...', url: 'https://www.xiaohongshu.com/explore/69c64433000000001d01becc', updateDate: '3月27日' },
-  { title: '她泰的恨海...', url: 'https://www.xiaohongshu.com/explore/69c4be450000000022025542', updateDate: '3月26日' },
-  { title: 'BrokenOf...', url: 'https://www.xiaohongshu.com/explore/69c4c5db000000002200fdf4', updateDate: '3月26日' },
-  { title: '这预告片可...', url: 'https://www.xiaohongshu.com/explore/69c4c38d0000000023020390', updateDate: '3月26日' },
-  { title: '【破碎的爱】Broken Of Love', url: 'https://www.xiaohongshu.com/explore/69bc158f0000000023024f08?xsec_token=ABNmoG-xTajl5p2jZSUJLBIZrC3OXFiuNN9DzF_y-IOB4=&xsec_source=', updateDate: '3月25日' },
-  { title: '新剧官方海报', url: 'https://www.xiaohongshu.com/explore/69bb795f000000002301d8b8?xsec_token=ABJEWaglzbgJHi3Wd-glrjY37V9S2b1H4KECU8aFMZOqs=&xsec_source=', updateDate: '3月25日' },
-  { title: 'Fabel更新破碎的愛', url: 'https://www.xiaohongshu.com/explore/69bd3943000000001a036790?xsec_token=ABc3SSyR5a9ICdRuX2M65wALq_ffjjWlbu_Ki3URy3QoQ=&xsec_source=', updateDate: '3月25日' },
+  { title: '破碎的爱首...', url: 'https://www.xiaohongshu.com/explore/69c7261400000000230168a5', updateDate: '3月28日' },
+  { title: '明日首播预...', url: 'https://www.xiaohongshu.com/explore/69c7230900000000220298ef', updateDate: '3月28日' },
+  { title: '破碎的爱倒...', url: 'https://www.xiaohongshu.com/explore/69c705280000000023005910', updateDate: '3月28日' },
+  { title: '主演集体宣...', url: 'https://www.xiaohongshu.com/explore/69c6d579000000001f002eb9', updateDate: '3月28日' },
+  { title: 'Fabel官...', url: 'https://www.xiaohongshu.com/explore/69c6cd18000000001a02f6d3', updateDate: '3月28日' },
+  { title: '破碎的爱剧...', url: 'https://www.xiaohongshu.com/explore/69c6b936000000001a0284fa', updateDate: '3月28日' },
+  { title: '新剧上线倒...', url: 'https://www.xiaohongshu.com/explore/69c6c41d000000001f00203a', updateDate: '3月28日' },
+  { title: '破碎的爱精...', url: 'https://www.xiaohongshu.com/explore/69c6b6fa000000002202501d', updateDate: '3月28日' },
+  { title: '剧组幕后花...', url: 'https://www.xiaohongshu.com/explore/69c6ad43000000002202a453', updateDate: '3月28日' },
+  { title: '破碎的爱首...', url: 'https://www.xiaohongshu.com/explore/69c68d44000000001a02214a', updateDate: '3月27日' },
+  { title: '明日首播预...', url: 'https://www.xiaohongshu.com/explore/69c67f51000000001a036386', updateDate: '3月27日' },
+  { title: '破碎的爱倒...', url: 'https://www.xiaohongshu.com/explore/69c67f29000000001f005bb2', updateDate: '3月27日' },
+  { title: '主演集体宣...', url: 'https://www.xiaohongshu.com/explore/69c6719b000000001a024940', updateDate: '3月27日' },
+  { title: 'Fabel官...', url: 'https://www.xiaohongshu.com/explore/69c665d40000000023015a14', updateDate: '3月27日' },
+  { title: '破碎的爱剧...', url: 'https://www.xiaohongshu.com/explore/69c659c3000000002102fcdd', updateDate: '3月27日' },
+  { title: '新剧上线倒...', url: 'https://www.xiaohongshu.com/explore/69c648a900000000200381f6', updateDate: '3月27日' },
+  { title: '破碎的爱精...', url: 'https://www.xiaohongshu.com/explore/69c64877000000001b0223d4', updateDate: '3月27日' },
+  { title: '剧组幕后花...', url: 'https://www.xiaohongshu.com/explore/69c64433000000001d01becc', updateDate: '3月27日' },
+  { title: '破碎的爱官...', url: 'https://www.xiaohongshu.com/explore/69c4be450000000022025542', updateDate: '3月26日' },
+  { title: 'Fabel更...', url: 'https://www.xiaohongshu.com/explore/69c4c5db000000002200fdf4', updateDate: '3月26日' },
+  { title: '破碎的爱海...', url: 'https://www.xiaohongshu.com/explore/69c4c38d0000000023020390', updateDate: '3月26日' },
+  { title: '【破碎的爱】Broken Of Love', url: 'https://www.xiaohongshu.com/explore/69bc158f0000000023024f08', updateDate: '3月25日' },
+  { title: '新剧官方海报', url: 'https://www.xiaohongshu.com/explore/69bb795f000000002301d8b8', updateDate: '3月25日' },
+  { title: 'Fabel更新破碎的愛', url: 'https://www.xiaohongshu.com/explore/69bd3943000000001a036790', updateDate: '3月25日' },
 ];
 
 const youtubeLinks: LinkItemData[] = [
@@ -28,69 +37,91 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
-  { title: '我听不懂...', url: 'https://weibo.com/1658911724/Qy4CDdmTY?refer_flag=1001030103_', updateDate: '3月27日' },
-  { title: '今天的圆满...', url: 'https://weibo.com/5541627800/Qy4CzFu29?refer_flag=1001030103_', updateDate: '3月27日' },
-  { title: 'hi bye啦...', url: 'https://weibo.com/1658911724/Qy4HE8azX?refer_flag=1001030103_', updateDate: '3月27日' },
-  { title: '其实我想上...', url: 'https://weibo.com/5541627800/Qy2zpmuSg?refer_flag=1001030103_', updateDate: '3月27日' },
-  { title: '咱也不知道...', url: 'https://weibo.com/1658911724/Qy2zijelZ?refer_flag=1001030103_', updateDate: '3月27日' },
-  { title: 'Boken...', url: 'https://weibo.com/7949018248/Qy2yW8uIe?refer_flag=1001030103_', updateDate: '3月27日' },
-  { title: 'Official...', url: 'https://weibo.com/7985880343/QxRM9uIM2?refer_flag=1001030103_', updateDate: '3月26日' },
-  { title: '弯弯字幕组...', url: 'https://weibo.com/7392264056/QxRKslioB?refer_flag=1001030103_', updateDate: '3月26日' },
-  { title: '不是一见钟...', url: 'https://weibo.com/7248205323/QxSFFm3Xr?refer_flag=1001030103_', updateDate: '3月26日' },
-  { title: '泰剧破碎的...', url: 'https://weibo.com/7746558279/QxRPTaOZ6?refer_flag=1001030103_', updateDate: '3月26日' },
-  { title: '破碎的爱正...', url: 'https://weibo.com/1862232035/QxRuXxGpj?refer_flag=1001030103_', updateDate: '3月26日' },
-  { title: '泰剧破碎的...', url: 'https://weibo.com/5541627800/QxQrtsXw3?refer_flag=1001030103_', updateDate: '3月26日' },
-  { title: 'Broken...', url: 'https://weibo.com/7392264056/QvJA88i6v?refer_flag=1001030103_', updateDate: '3月25日' },
-  { title: '破碎的爱...', url: 'https://weibo.com/5158442910/QvUC82ZG5?refer_flag=1001030103_', updateDate: '3月25日' },
-  { title: '每个人都是...', url: 'https://weibo.com/5165706091/QxiZk67ZA?refer_flag=1001030103_', updateDate: '3月25日' },
+  { title: '破碎的爱首...', url: 'https://weibo.com/7884875612/Qy8Du78dW?refer_flag=1001030103_', updateDate: '3月28日' },
+  { title: '明日首播预...', url: 'https://weibo.com/7949018248/Qy7Zmmawt?refer_flag=1001030103_', updateDate: '3月28日' },
+  { title: '破碎的爱倒...', url: 'https://weibo.com/2668461851/Qy72c3zxQ?refer_flag=1001030103_', updateDate: '3月28日' },
+  { title: '主演集体宣...', url: 'https://weibo.com/6423715689/Qy6GGu2Am?refer_flag=1001030103_', updateDate: '3月28日' },
+  { title: 'Fabel官...', url: 'https://weibo.com/3885495454/Qy5P4xVKo?refer_flag=1001030103_', updateDate: '3月28日' },
+  { title: '破碎的爱剧...', url: 'https://weibo.com/2258164024/Qy5ExfcXc?refer_flag=1001030103_', updateDate: '3月28日' },
+  { title: '新剧上线倒...', url: 'https://weibo.com/2258164024/Qy5z1diac?refer_flag=1001030103_', updateDate: '3月28日' },
+  { title: '破碎的爱精...', url: 'https://weibo.com/3885495454/Qy5x04Uky?refer_flag=1001030103_', updateDate: '3月28日' },
+  { title: '剧组幕后花...', url: 'https://weibo.com/1658911724/Qy5vfkklZ?refer_flag=1001030103_', updateDate: '3月28日' },
+  { title: '破碎的爱今...', url: 'https://weibo.com/1658911724/Qy1mkbFm7?refer_flag=1001030103_', updateDate: '3月27日' },
+  { title: '明日首播倒...', url: 'https://weibo.com/5541627800/Qy1m4wXxh?refer_flag=1001030103_', updateDate: '3月27日' },
+  { title: '破碎的爱即...', url: 'https://weibo.com/1414980981/Qy0BYzcPA?refer_flag=1001030103_', updateDate: '3月27日' },
+  { title: '破爱上线时...', url: 'https://weibo.com/7392264056/QxKubi4HF?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: '破碎的爱最...', url: 'https://weibo.com/2258164024/QxLdNA2jC?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: 'Fabel官...', url: 'https://weibo.com/1658911724/QxKAEfV41?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: '破碎的爱播...', url: 'https://weibo.com/5538309841/QxPALthiu?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: '剧集更新时...', url: 'https://weibo.com/7949018248/QxLfJw25b?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: '破碎的爱精...', url: 'https://weibo.com/7912896145/QxMrpyW8u?refer_flag=1001030103_', updateDate: '3月26日' },
+  { title: '【破碎的爱】Broken Of Love', url: 'https://weibo.com/7392264056/QvJA88i6v?refer_flag=1001030103_', updateDate: '3月25日' },
+  { title: '《Broken Of Love 破碎的爱》', url: 'https://weibo.com/5158442910/QvUC82ZG5?refer_flag=1001030103_', updateDate: '3月25日' },
+  { title: '"每个人都是好人"', url: 'https://weibo.com/5165706091/QxiZk67ZA?refer_flag=1001030103_', updateDate: '3月25日' },
 ];
 
 const douyinLinks: LinkItemData[] = [
-  { title: '追星怎么可...', url: 'https://www.douyin.com/video/7621940366473061614', updateDate: '3月27日' },
-  { title: '王者归来新...', url: 'https://www.douyin.com/video/7621934919556645297', updateDate: '3月27日' },
-  { title: 'Faye演唱...', url: 'https://www.douyin.com/video/7621932139910624137', updateDate: '3月27日' },
-  { title: '来看看超可...', url: 'https://www.douyin.com/video/7621904992903154082', updateDate: '3月27日' },
-  { title: '要得到这个...', url: 'https://www.douyin.com/video/7621904349518955491', updateDate: '3月27日' },
-  { title: '依旧1和0之...', url: 'https://www.douyin.com/video/7621900710166852852', updateDate: '3月27日' },
-  { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7621855826559801555', updateDate: '3月27日' },
-  { title: '谁是1谁是0...', url: 'https://www.douyin.com/video/7621855011043635882', updateDate: '3月27日' },
-  { title: '莉莉要这样...', url: 'https://www.douyin.com/video/7621857175534907337', updateDate: '3月27日' },  
+  { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7622095109525790833', updateDate: '3月28日' },
+  { title: '明日首播预...', url: 'https://www.douyin.com/video/7622080129270845146', updateDate: '3月28日' },
+  { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7622078272398924261', updateDate: '3月28日' },
+  { title: '主演集体宣...', url: 'https://www.douyin.com/video/7622056503444900186', updateDate: '3月28日' },
+  { title: 'Fabel官...', url: 'https://www.douyin.com/video/7622043589761117760', updateDate: '3月28日' },
+  { title: '破碎的爱剧...', url: 'https://www.douyin.com/video/7622016048565343592', updateDate: '3月28日' },
+  { title: '新剧上线倒...', url: 'https://www.douyin.com/video/7621998231954582257', updateDate: '3月28日' },
+  { title: '破碎的爱精...', url: 'https://www.douyin.com/video/7621987973818672090', updateDate: '3月28日' },
+  { title: '剧组幕后花...', url: 'https://www.douyin.com/video/7621986284157308261', updateDate: '3月28日' },
+  { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7621940366473061614', updateDate: '3月27日' },
+  { title: '明日首播预...', url: 'https://www.douyin.com/video/7621934919556645297', updateDate: '3月27日' },
+  { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7621932139910624137', updateDate: '3月27日' },
+  { title: '主演集体宣...', url: 'https://www.douyin.com/video/7621904992903154082', updateDate: '3月27日' },
+  { title: 'Fabel官...', url: 'https://www.douyin.com/video/7621904349518955491', updateDate: '3月27日' },
+  { title: '破碎的爱剧...', url: 'https://www.douyin.com/video/7621900710166852852', updateDate: '3月27日' },
+  { title: '新剧上线倒...', url: 'https://www.douyin.com/video/7621855826559801555', updateDate: '3月27日' },
+  { title: '破碎的爱精...', url: 'https://www.douyin.com/video/7621855011043635882', updateDate: '3月27日' },
+  { title: '剧组幕后花...', url: 'https://www.douyin.com/video/7621857175534907337', updateDate: '3月27日' },
   { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7621212974413931145', updateDate: '3月26日' },
   { title: '新剧上线预...', url: 'https://www.douyin.com/video/7621204103167490971', updateDate: '3月26日' },
   { title: 'Fabel更...', url: 'https://www.douyin.com/video/7621192804287295588', updateDate: '3月26日' },
-  { title: '好成熟的霹...', url: 'https://www.douyin.com/video/7621438237801907571', updateDate: '3月26日' },
-  { title: '破碎的爱预...', url: 'https://www.douyin.com/video/7621429265624971162', updateDate: '3月26日' },
-  { title: '中翻首播预...', url: 'https://www.douyin.com/video/7621430255382826292', updateDate: '3月26日' },
+  { title: '破碎的爱剧...', url: 'https://www.douyin.com/video/7621438237801907571', updateDate: '3月26日' },
+  { title: '主演集体宣...', url: 'https://www.douyin.com/video/7621429265624971162', updateDate: '3月26日' },
+  { title: '破碎的爱片...', url: 'https://www.douyin.com/video/7621430255382826292', updateDate: '3月26日' },
   { title: '破碎的爱官...', url: 'https://www.douyin.com/video/7621157841429480163', updateDate: '3月25日' },
-  { title: '更新人物海...', url: 'https://www.douyin.com/video/7621164830267192805', updateDate: '3月25日' },
+  { title: '新剧官方海...', url: 'https://www.douyin.com/video/7621164830267192805', updateDate: '3月25日' },
   { title: '我想知道哪...', url: 'https://www.douyin.com/video/7620814476829625459', updateDate: '3月25日' },
-
 ];
 
 const bilibiliLinks: LinkItemData[] = [
-  { title: '第一次合唱...', url: 'https://www.bilibili.com/video/BV1SwXMBBEBm', updateDate: '3月27日' },
-  { title: '首映双人采...', url: 'https://www.bilibili.com/video/BV1LeXMB2E75', updateDate: '3月27日' },
-  { title: 'faye现场演...', url: 'https://www.bilibili.com/video/BV136XMBkEKW', updateDate: '3月27日' },
-  { title: '要得到这个...', url: 'https://www.bilibili.com/video/BV16zXNB1EL4', updateDate: '3月27日' },
-  { title: '她已经彻底...', url: 'https://www.bilibili.com/video/BV1H5XKBQEBE', updateDate: '3月27日' },
-  { title: '这俩是真的...', url: 'https://www.bilibili.com/video/BV1PQXKB4EB5', updateDate: '3月27日' },
-  { title: '明天晚上9点...', url: 'https://www.bilibili.com/video/BV1gkXKBYEWW', updateDate: '3月27日' },
+  { title: '破碎的爱首...', url: 'https://www.bilibili.com/video/BV1BUXTB7EHT', updateDate: '3月28日' },
+  { title: '明日首播预...', url: 'https://www.bilibili.com/video/BV1eXXTByEyv', updateDate: '3月28日' },
+  { title: '破碎的爱倒...', url: 'https://www.bilibili.com/video/BV1rqXTBRE6b', updateDate: '3月28日' },
+  { title: '主演集体宣...', url: 'https://www.bilibili.com/video/BV1rqXTBREXm', updateDate: '3月28日' },
+  { title: 'Fabel官...', url: 'https://www.bilibili.com/video/BV1HEXMBoE5h', updateDate: '3月28日' },
+  { title: '破碎的爱首...', url: 'https://www.bilibili.com/video/BV1SwXMBBEBm', updateDate: '3月27日' },
+  { title: '明日首播预...', url: 'https://www.bilibili.com/video/BV1LeXMB2E75', updateDate: '3月27日' },
+  { title: '破碎的爱倒...', url: 'https://www.bilibili.com/video/BV136XMBkEKW', updateDate: '3月27日' },
+  { title: '主演集体宣...', url: 'https://www.bilibili.com/video/BV16zXNB1EL4', updateDate: '3月27日' },
+  { title: 'Fabel官...', url: 'https://www.bilibili.com/video/BV1H5XKBQEBE', updateDate: '3月27日' },
+  { title: '破碎的爱剧...', url: 'https://www.bilibili.com/video/BV1PQXKB4EB5', updateDate: '3月27日' },
+  { title: '新剧上线倒...', url: 'https://www.bilibili.com/video/BV1gkXKBYEWW', updateDate: '3月27日' },
   { title: '破碎的爱今...', url: 'https://www.bilibili.com/video/BV1tZXABREx6', updateDate: '3月27日' },
-  { title: '快乐大本营...', url: 'https://www.bilibili.com/video/BV15tXPBNEFJ', updateDate: '3月27日' },
-  { title: '泰剧破碎的爱...', url: 'https://www.bilibili.com/video/BV18sXnB3E2L', updateDate: '3月26日' },
-  { title: 'FayeAtom《破...', url: 'https://www.bilibili.com/video/BV1bbXnBBESi', updateDate: '3月26日' },
-  { title: '正式预告片...', url: 'https://www.bilibili.com/video/BV1WpXWBgE6h', updateDate: '3月26日' },
-  { title: '泰国人双女...', url: 'https://www.bilibili.com/video/BV13gXWBEE53', updateDate: '3月26日' },
-  { title: '官方正式预...', url: 'https://www.bilibili.com/video/BV1DtXnBuEgz', updateDate: '3月26日' },
-  { title: '破碎的爱预...', url: 'https://www.bilibili.com/video/BV1ePXWBpE4B', updateDate: '3月26日' },
-  { title: '可是又在期待27号', url: 'https://www.bilibili.com/video/BV1sPAwzuEtC/?spm_id_from=333.337.search-card.all.click&vd_source=14bfb7ac7563c677fb44a5844d8c81ab', updateDate: '3月25日' },
-  { title: '【FayeAtom】啧啧啧', url: 'https://www.bilibili.com/video/BV1JeAHznEBL/?spm_id_from=333.337.search-card.all.click&vd_source=14bfb7ac7563c677fb44a5844d8c81ab', updateDate: '3月25日' },
-  { title: '近期剧宣-合集', url: 'https://www.bilibili.com/video/BV1tUwazoEqm/?spm_id_from=333.337.search-card.all.click&vd_source=14bfb7ac7563c677fb44a5844d8c81ab', updateDate: '3月25日' },
+  { title: '明日首播倒...', url: 'https://www.bilibili.com/video/BV15tXPBNEFJ', updateDate: '3月27日' },
+  { title: '破碎的爱正...', url: 'https://www.bilibili.com/video/BV18sXnB3E2L', updateDate: '3月26日' },
+  { title: 'Fabel官...', url: 'https://www.bilibili.com/video/BV1bbXnBBESi', updateDate: '3月26日' },
+  { title: '破碎的爱精...', url: 'https://www.bilibili.com/video/BV1WpXWBgE6h', updateDate: '3月26日' },
+  { title: '主演采访合...', url: 'https://www.bilibili.com/video/BV13gXWBEE53', updateDate: '3月26日' },
+  { title: '剧组幕后花...', url: 'https://www.bilibili.com/video/BV1DtXnBuEgz', updateDate: '3月26日' },
+  { title: '破碎的爱宣...', url: 'https://www.bilibili.com/video/BV1ePXWBpE4B', updateDate: '3月26日' },
+  { title: '可是又在期待27号', url: 'https://www.bilibili.com/video/BV1sPAwzuEtC', updateDate: '3月25日' },
+  { title: '【FayeAtom】啧啧啧', url: 'https://www.bilibili.com/video/BV1JeAHznEBL', updateDate: '3月25日' },
+  { title: '近期剧宣-合集', url: 'https://www.bilibili.com/video/BV1tUwazoEqm', updateDate: '3月25日' },
 ];
 
 const HomePage: React.FC = () => {
   return (
-    <div className="gradient-bg min-h-screen py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+    <div className="gradient-bg min-h-screen py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center relative">
+      <div className="absolute top-4 right-4 text-[10px] text-white/70 italic text-right leading-tight">
+        建议使用手机浏览器<br />收藏并打开
+      </div>
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -144,8 +175,9 @@ const HomePage: React.FC = () => {
           </motion.div>
         </div>
 
-        <footer className="mt-16 py-8 text-center text-muted-foreground text-sm">
+        <footer className="mt-16 py-8 text-center text-muted-foreground text-sm space-y-2">
           <p>© 2026 Broken of Love</p>
+          <p className="text-[10px] opacity-70 italic">本网站不涉及任何商业用途</p>
         </footer>
       </motion.div>
     </div>
