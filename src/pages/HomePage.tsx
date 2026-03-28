@@ -32,8 +32,8 @@ const xhsLinks: LinkItemData[] = [
 
 const youtubeLinks: LinkItemData[] = [
   { title: 'Fabel油管海外平台', url: 'https://www.youtube.com/@FabelEntertainment' },
-  { title: '国内播放平台①（明日上线）', url: '' },
-  { title: '国内播放平台②（明日上线）', url: '' },
+  { title: '国内播放平台①（今日上线）', url: '' },
+  { title: '国内播放平台②（今日上线）', url: '' },
 ];
 
 const weiboLinks: LinkItemData[] = [
