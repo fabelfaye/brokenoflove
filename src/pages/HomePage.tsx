@@ -32,8 +32,8 @@ const xhsLinks: LinkItemData[] = [
 
 const youtubeLinks: LinkItemData[] = [
   { title: 'Fabel油管海外平台 EP1已上线', url: 'https://www.youtube.com/@FabelEntertainment' },
-  { title: '【中翻】 EP1~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1MSXMBiEV5' },
   { title: '【中翻】 EP1~ 真的肥常无语', url: 'https://www.bilibili.com/video/BV1jpXLBMEUy' },
+  { title: '【中翻】 EP1~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1MSXMBiEV5' },
 ];
 
 const weiboLinks: LinkItemData[] = [
