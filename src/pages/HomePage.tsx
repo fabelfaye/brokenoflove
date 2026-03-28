@@ -61,6 +61,7 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
+  { title: '泰剧星闻社...', url: 'https://www.douyin.com/video/7621890010123979001', updateDate: '3月28日' },
   { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7622095109525790833', updateDate: '3月28日' },
   { title: '明日首播预...', url: 'https://www.douyin.com/video/7622080129270845146', updateDate: '3月28日' },
   { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7622078272398924261', updateDate: '3月28日' },
