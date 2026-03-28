@@ -113,33 +113,33 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
                     >
                       <div className="flex flex-col items-center gap-2 w-full">
                         {(link.url?.includes('xiaohongshu.com') || title === '小红书') && (
-                          <div className="flex items-center justify-center w-7 h-7 rounded-full bg-red-500 text-white text-[10px] font-bold shrink-0 shadow-sm leading-none">
+                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-500 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
                             书
                           </div>
                         )}
                         {(link.url?.includes('weibo.com') || title === '微博') && (
-                          <div className="flex items-center justify-center w-7 h-7 rounded-full bg-orange-500 text-white text-[10px] font-bold shrink-0 shadow-sm leading-none">
+                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-500 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
                             博
                           </div>
                         )}
                         {(link.url?.includes('bilibili.com') || title === 'B站') && (
-                          <div className="flex items-center justify-center w-7 h-7 rounded-full bg-pink-400 text-white text-[10px] font-bold shrink-0 shadow-sm leading-none">
+                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-pink-400 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
                             B
                           </div>
                         )}
                         {(link.url?.includes('douyin.com') || title === '抖音') && (
-                          <div className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-900 text-white text-[10px] font-bold shrink-0 shadow-sm leading-none">
+                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-slate-900 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
                             音
                           </div>
                         )}
                         {link.url?.includes('youtube.com') && (
-                          <div className="flex items-center justify-center w-7 h-7 rounded-full bg-red-600 text-white text-[10px] font-bold shrink-0 shadow-sm leading-none">
+                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
                             Y
                           </div>
                         )}
                         <span className={cn(
                           "font-medium leading-tight break-words w-full line-clamp-3",
-                          finalVariant === 'grid' ? "text-[10px]" : "text-sm"
+                          finalVariant === 'grid' ? "text-xs" : "text-sm"
                         )}>
                           {link.title || '无标题'}
                         </span>
