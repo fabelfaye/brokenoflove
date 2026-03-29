@@ -27,6 +27,7 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
   variant = 'list'
 }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
+  const [collapsedDates, setCollapsedDates] = useState<Set<string>>(new Set(['3月25日', '3月26日']));
 
   // Group links by update date
   const groupedLinks: { [key: string]: LinkItemData[] } = {};
@@ -42,7 +43,19 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
   }
 
   // Set grid variant for specific platforms
-  const finalVariant = (title === '抖音' || title === 'B站' || title === '小红书' || title === '微博') ? 'grid' : variant;
+  const finalVariant = (title === '抖音' || title === 'B站' || title === '小红书' || title === '微博' || title === 'Youtube') ? 'grid' : variant;
+
+  const toggleDateCollapse = (date: string) => {
+    setCollapsedDates(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(date)) {
+        newSet.delete(date);
+      } else {
+        newSet.add(date);
+      }
+      return newSet;
+    });
+  };
 
   return (
     <Collapsible
@@ -85,68 +98,87 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
           <div className="px-4 pb-6">
             {dates.map((date, dateIdx) => (
               <div key={date} className="mb-4 last:mb-0">
-                {date !== 'default' && (
-                  <div className="relative flex items-center py-4 mb-2">
+                {date !== 'default' && date !== '第一行' && date !== '第二行' && (
+                  <div 
+                    className="relative flex items-center py-4 mb-2 cursor-pointer group"
+                    onClick={() => toggleDateCollapse(date)}
+                  >
                     <div className="flex-grow border-t border-border/40"></div>
-                    <span className="flex-shrink mx-4 text-[10px] text-muted-foreground/70 font-medium tracking-widest uppercase">
-                      {date}更新
-                    </span>
+                    <div className="flex items-center gap-2 flex-shrink mx-4">
+                      <span className="text-[10px] text-muted-foreground/70 font-medium tracking-widest uppercase">
+                        {date}更新
+                      </span>
+                      <ChevronDown 
+                        className={cn(
+                          "h-3 w-3 transition-transform duration-200 text-muted-foreground/50",
+                          !collapsedDates.has(date) && "transform rotate-180"
+                        )} 
+                      />
+                    </div>
                     <div className="flex-grow border-t border-border/40"></div>
                   </div>
                 )}
-                <div className={cn(
-                  finalVariant === 'grid' ? "grid grid-cols-3 gap-2" : "space-y-3"
-                )}>
-                  {groupedLinks[date].map((link, index) => (
-                    <a
-                      key={index}
-                      href={link.url || '#'}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={cn(
-                        "flex flex-col items-center justify-start p-3 rounded-xl transition-all duration-200 group text-center h-full",
-                        link.url 
-                          ? "bg-secondary/50 hover:bg-primary/10 text-foreground border border-transparent hover:border-primary/20" 
-                          : "bg-muted cursor-not-allowed opacity-60"
-                      )}
-                      onClick={(e) => !link.url && e.preventDefault()}
-                    >
-                      <div className="flex flex-col items-center gap-2 w-full">
-                        {(link.url?.includes('xiaohongshu.com') || title === '小红书') && (
-                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-500 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
-                            书
-                          </div>
+                {(!collapsedDates.has(date) || date === 'default' || date === '第一行' || date === '第二行') && (
+                  <div className={cn(
+                    finalVariant === 'grid' 
+                      ? date === '第一行' 
+                        ? "grid grid-cols-1 gap-2" 
+                        : date === '第二行'
+                        ? "grid grid-cols-2 gap-2"
+                        : "grid grid-cols-3 gap-2"
+                      : "space-y-3"
+                  )}>
+                    {groupedLinks[date].map((link, index) => (
+                      <a
+                        key={index}
+                        href={link.url || '#'}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={cn(
+                          "flex flex-col items-center justify-start p-3 rounded-xl transition-all duration-200 group text-center h-full",
+                          link.url 
+                            ? "bg-secondary/50 hover:bg-primary/10 text-foreground border border-transparent hover:border-primary/20" 
+                            : "bg-muted cursor-not-allowed opacity-60"
                         )}
-                        {(link.url?.includes('weibo.com') || title === '微博') && (
-                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-500 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
-                            博
-                          </div>
-                        )}
-                        {(link.url?.includes('bilibili.com') || title === 'B站') && (
-                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-pink-400 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
-                            B
-                          </div>
-                        )}
-                        {(link.url?.includes('douyin.com') || title === '抖音') && (
-                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-slate-900 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
-                            音
-                          </div>
-                        )}
-                        {link.url?.includes('youtube.com') && (
-                          <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
-                            Y
-                          </div>
-                        )}
-                        <span className={cn(
-                          "font-medium leading-tight break-words w-full line-clamp-3",
-                          finalVariant === 'grid' ? "text-xs" : "text-sm"
-                        )}>
-                          {link.title || '无标题'}
-                        </span>
-                      </div>
-                    </a>
-                  ))}
-                </div>
+                        onClick={(e) => !link.url && e.preventDefault()}
+                      >
+                        <div className="flex flex-col items-center gap-2 w-full">
+                          {(link.url?.includes('xiaohongshu.com') || title === '小红书') && (
+                            <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-500 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
+                              书
+                            </div>
+                          )}
+                          {(link.url?.includes('weibo.com') || title === '微博') && (
+                            <div className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-500 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
+                              博
+                            </div>
+                          )}
+                          {(link.url?.includes('bilibili.com') || title === 'B站') && (
+                            <div className="flex items-center justify-center w-6 h-6 rounded-full bg-pink-400 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
+                              B
+                            </div>
+                          )}
+                          {(link.url?.includes('douyin.com') || title === '抖音') && (
+                            <div className="flex items-center justify-center w-6 h-6 rounded-full bg-slate-900 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
+                              音
+                            </div>
+                          )}
+                          {link.url?.includes('youtube.com') && (
+                            <div className="flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-[9px] font-bold shrink-0 shadow-sm leading-none">
+                              Y
+                            </div>
+                          )}
+                          <span className={cn(
+                            "font-medium leading-tight break-words w-full line-clamp-3",
+                            finalVariant === 'grid' ? "text-xs" : "text-sm"
+                          )}>
+                            {link.title || '无标题'}
+                          </span>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>
