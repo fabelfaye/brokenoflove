@@ -4,6 +4,12 @@ import { LinkGroup, LinkItemData } from '@/components/LinkGroup';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
+  { title: '破碎的爱首...', url: 'https://www.xiaohongshu.com/explore/69c9b6680000000023027456', updateDate: '3月30日' },
+  { title: '明日首播预...', url: 'https://www.xiaohongshu.com/explore/69c96f63000000002202b146', updateDate: '3月30日' },
+  { title: '破碎的爱倒...', url: 'https://www.xiaohongshu.com/explore/69c95eb3000000001f006936', updateDate: '3月30日' },
+  { title: '主演集体宣...', url: 'https://www.xiaohongshu.com/explore/69c9440a000000001f002463', updateDate: '3月30日' },
+  { title: 'Fabel官...', url: 'https://www.xiaohongshu.com/explore/69c8ec02000000001d01d0ce', updateDate: '3月30日' },
+  { title: '破碎的爱剧...', url: 'https://www.xiaohongshu.com/explore/69c8f8040000000023020873', updateDate: '3月30日' },
   { title: '破碎的爱首...', url: 'https://www.xiaohongshu.com/explore/69c87a950000000021039354', updateDate: '3月29日' },
   { title: '明日首播预...', url: 'https://www.xiaohongshu.com/explore/69c87683000000001d01d4f8', updateDate: '3月29日' },
   { title: '破碎的爱倒...', url: 'https://www.xiaohongshu.com/explore/69c841f00000000022026d31', updateDate: '3月29日' },
@@ -43,6 +49,11 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
+  { title: '破碎的爱首...', url: 'https://weibo.com/2951609253/QypD5DmMI?refer_flag=1001030103_', updateDate: '3月30日' },
+  { title: '明日首播预...', url: 'https://weibo.com/6067221167/Qyny4woqL?refer_flag=1001030103_', updateDate: '3月30日' },
+  { title: '破碎的爱倒...', url: 'https://weibo.com/6042105331/QynxJBXK6?refer_flag=1001030103_', updateDate: '3月30日' },
+  { title: '主演集体宣...', url: 'https://weibo.com/6067221170/QynxboMAe?refer_flag=1001030103_', updateDate: '3月30日' },
+  { title: 'Fabel官...', url: 'https://weibo.com/6533725616/QyjcguMi4?refer_flag=1001030103_', updateDate: '3月30日' },
   { title: '破碎的爱首...', url: 'https://weibo.com/7951256735/QyizEkKfk?refer_flag=1001030103_', updateDate: '3月29日' },
   { title: '明日首播预...', url: 'https://weibo.com/2951609253/QyilA4p42?refer_flag=1001030103_', updateDate: '3月29日' },
   { title: '破碎的爱倒...', url: 'https://weibo.com/2258164024/Qyhp0vG4y?refer_flag=1001030103_', updateDate: '3月29日' },
@@ -73,6 +84,12 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
+  { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7622725348451502154', updateDate: '3月30日' },
+  { title: '明日首播预...', url: 'https://www.douyin.com/video/7622717442120240390', updateDate: '3月30日' },
+  { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7622712384117511670', updateDate: '3月30日' },
+  { title: '主演集体宣...', url: 'https://www.douyin.com/video/7622707490929379830', updateDate: '3月30日' },
+  { title: 'Fabel官...', url: 'https://www.douyin.com/video/7622706798717985765', updateDate: '3月30日' },
+  { title: '破碎的爱剧...', url: 'https://www.douyin.com/video/7622682056162592933', updateDate: '3月30日' },
   { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7622480983966936998', updateDate: '3月29日' },
   { title: '明日首播预...', url: 'https://www.douyin.com/video/7622480590567198318', updateDate: '3月29日' },
   { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7622477951389333066', updateDate: '3月29日' },
@@ -109,6 +126,9 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
+  { title: '破碎的爱首...', url: 'https://www.bilibili.com/video/BV1MVXdBiEzy', updateDate: '3月30日' },
+  { title: '明日首播预...', url: 'https://www.bilibili.com/video/BV1z2XXBjEjs', updateDate: '3月30日' },
+  { title: '破碎的爱倒...', url: 'https://www.bilibili.com/video/BV1UmX9BeEYe', updateDate: '3月30日' },
   { title: '破碎的爱首...', url: 'https://www.bilibili.com/video/BV17yXUBwECK', updateDate: '3月29日' },
   { title: '明日首播预...', url: 'https://www.bilibili.com/video/BV1ZyXUBwE61', updateDate: '3月29日' },
   { title: '破碎的爱倒...', url: 'https://www.bilibili.com/video/BV1eBXyBSEZC', updateDate: '3月29日' },
