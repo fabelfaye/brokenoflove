@@ -32,6 +32,24 @@ export const ProfileSection: React.FC<ProfileSectionProps> = ({ avatarUrl, title
     }
   ];
 
+  const superTopicLinks = [
+    { 
+      name: 'Faye超话', 
+      url: 'https://weibo.com/p/1008083dfdc2265ea504f2304eac4eb289e52d/super_index',
+      icon: '🏎️'
+    },
+    { 
+      name: 'Atom超话', 
+      url: 'https://weibo.com/p/100808ef5b9ff9fab1517f9c0495d69fbda12f/super_index',
+      icon: '🌸'
+    },
+    { 
+      name: 'FayeAtom超话', 
+      url: 'https://weibo.com/p/100808d9e321605c92466c0009e7c47c422a2b/super_index',
+      icon: '👭'
+    }
+  ];
+
   return (
     <div className="flex flex-col items-center justify-center space-y-4 py-8">
       <div className="relative">
@@ -54,6 +72,25 @@ export const ProfileSection: React.FC<ProfileSectionProps> = ({ avatarUrl, title
 
       <div className="grid grid-cols-4 gap-4 mt-6 w-full max-w-sm">
         {quickLinks.map((link, index) => (
+          <a
+            key={index}
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center space-y-2 group"
+          >
+            <div className="w-14 h-14 rounded-full bg-white dark:bg-gray-800 shadow-md flex items-center justify-center text-2xl transition-transform group-hover:scale-110 group-active:scale-95 border border-primary/10">
+              {link.icon}
+            </div>
+            <span className="text-xs font-medium text-muted-foreground text-center line-clamp-2">
+              {link.name}
+            </span>
+          </a>
+        ))}
+      </div>
+
+      <div className="grid grid-cols-3 gap-4 mt-4 w-full max-w-sm">
+        {superTopicLinks.map((link, index) => (
           <a
             key={index}
             href={link.url}
