@@ -188,7 +188,10 @@ const bilibiliLinks: LinkItemData[] = [
 const HomePage: React.FC = () => {
   return (
     <div className="gradient-bg min-h-screen py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center relative">
-      <div className="absolute top-4 right-4 flex items-center gap-3">
+      <div className="absolute top-4 right-4 flex flex-col items-center gap-2">
+        <div className="text-[10px] text-gray-700 dark:text-gray-400 italic text-center leading-tight">
+          请大家将该网页分享给更多同担<br />同时，建议使用手机浏览器<br />收藏并打开链接
+        </div>
         <button
           onClick={() => {
             if (navigator.share) {
@@ -212,9 +215,6 @@ const HomePage: React.FC = () => {
         >
           🔗
         </button>
-        <div className="text-[10px] text-gray-700 dark:text-gray-400 italic text-right leading-tight">
-          请大家将该网页分享给更多同担<br />同时，建议使用手机浏览器<br />收藏并打开链接
-        </div>
       </div>
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
