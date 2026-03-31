@@ -1,6 +1,7 @@
 import React from 'react';
 import { ProfileSection } from '@/components/ProfileSection';
 import { LinkGroup, LinkItemData } from '@/components/LinkGroup';
+import { CharacterRelationship } from '@/components/CharacterRelationship';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
