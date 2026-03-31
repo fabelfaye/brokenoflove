@@ -4,6 +4,15 @@ import { LinkGroup, LinkItemData } from '@/components/LinkGroup';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
+  { title: '破碎的爱首...', url: 'https://www.xiaohongshu.com/explore/69cae2f0000000001f001366', updateDate: '3月31日' },
+  { title: '明日首播预...', url: 'https://www.xiaohongshu.com/explore/69cab0ff000000002202abe8', updateDate: '3月31日' },
+  { title: '破碎的爱倒...', url: 'https://www.xiaohongshu.com/explore/69caa6dc0000000022026bb7', updateDate: '3月31日' },
+  { title: '主演集体宣...', url: 'https://www.xiaohongshu.com/explore/69ca943e000000001a0369eb', updateDate: '3月31日' },
+  { title: 'Fabel官...', url: 'https://www.xiaohongshu.com/explore/69ca7657000000001a02f214', updateDate: '3月31日' },
+  { title: '破碎的爱剧...', url: 'https://www.xiaohongshu.com/explore/69ca7e880000000023006369', updateDate: '3月31日' },
+  { title: '新剧上线倒...', url: 'https://www.xiaohongshu.com/explore/69ca7da6000000001e00c9d4', updateDate: '3月31日' },
+  { title: '破碎的爱精...', url: 'https://www.xiaohongshu.com/explore/69ca4ad3000000001a03424b', updateDate: '3月31日' },
+  { title: '剧组幕后花...', url: 'https://www.xiaohongshu.com/explore/69ca40aa000000002202829c', updateDate: '3月31日' },
   { title: '破碎的爱首...', url: 'https://www.xiaohongshu.com/explore/69c9b6680000000023027456', updateDate: '3月30日' },
   { title: '明日首播预...', url: 'https://www.xiaohongshu.com/explore/69c96f63000000002202b146', updateDate: '3月30日' },
   { title: '破碎的爱倒...', url: 'https://www.xiaohongshu.com/explore/69c95eb3000000001f006936', updateDate: '3月30日' },
@@ -49,6 +58,12 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
+  { title: '破碎的爱首...', url: 'https://weibo.com/7949018248/QyBeafKdD?refer_flag=1001030103_', updateDate: '3月31日' },
+  { title: '明日首播预...', url: 'https://weibo.com/2258164024/QyAYC6Bk1?refer_flag=1001030103_', updateDate: '3月31日' },
+  { title: '破碎的爱倒...', url: 'https://weibo.com/3401457390/QyAVApZb6?refer_flag=1001030103_', updateDate: '3月31日' },
+  { title: '主演集体宣...', url: 'https://weibo.com/6534084311/QyASUn7nO?refer_flag=1001030103_', updateDate: '3月31日' },
+  { title: 'Fabel官...', url: 'https://weibo.com/6216754378/QyARR1JLd?refer_flag=1001030103_', updateDate: '3月31日' },
+  { title: '破碎的爱剧...', url: 'https://weibo.com/3885495454/QyAhXmOS1?refer_flag=1001030103_', updateDate: '3月31日' },
   { title: '破碎的爱首...', url: 'https://weibo.com/2951609253/QypD5DmMI?refer_flag=1001030103_', updateDate: '3月30日' },
   { title: '明日首播预...', url: 'https://weibo.com/6067221167/Qyny4woqL?refer_flag=1001030103_', updateDate: '3月30日' },
   { title: '破碎的爱倒...', url: 'https://weibo.com/6042105331/QynxJBXK6?refer_flag=1001030103_', updateDate: '3月30日' },
@@ -84,6 +99,12 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
+  { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7623216335484445096', updateDate: '3月31日' },
+  { title: '明日首播预...', url: 'https://www.douyin.com/video/7623154361459543412', updateDate: '3月31日' },
+  { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7623109448228431098', updateDate: '3月31日' },
+  { title: '主演集体宣...', url: 'https://www.douyin.com/video/7623091409025119483', updateDate: '3月31日' },
+  { title: 'Fabel官...', url: 'https://www.douyin.com/video/7623061050543876474', updateDate: '3月31日' },
+  { title: '破碎的爱剧...', url: 'https://www.douyin.com/video/7623059671842515962', updateDate: '3月31日' },
   { title: '破碎的爱首...', url: 'https://www.douyin.com/video/7622725348451502154', updateDate: '3月30日' },
   { title: '明日首播预...', url: 'https://www.douyin.com/video/7622717442120240390', updateDate: '3月30日' },
   { title: '破碎的爱倒...', url: 'https://www.douyin.com/video/7622712384117511670', updateDate: '3月30日' },
@@ -126,6 +147,10 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
+  { title: '破碎的爱首...', url: 'https://www.bilibili.com/video/BV1TkXBBXEnG', updateDate: '3月31日' },
+  { title: '明日首播预...', url: 'https://www.bilibili.com/video/BV1giXBBoEjf', updateDate: '3月31日' },
+  { title: '破碎的爱倒...', url: 'https://www.bilibili.com/video/BV1JLXiBYESr', updateDate: '3月31日' },
+  { title: '主演集体宣...', url: 'https://www.bilibili.com/video/BV19uXqBxEvQ', updateDate: '3月31日' },
   { title: '破碎的爱首...', url: 'https://www.bilibili.com/video/BV1MVXdBiEzy', updateDate: '3月30日' },
   { title: '明日首播预...', url: 'https://www.bilibili.com/video/BV1z2XXBjEjs', updateDate: '3月30日' },
   { title: '破碎的爱倒...', url: 'https://www.bilibili.com/video/BV1UmX9BeEYe', updateDate: '3月30日' },
@@ -163,8 +188,33 @@ const bilibiliLinks: LinkItemData[] = [
 const HomePage: React.FC = () => {
   return (
     <div className="gradient-bg min-h-screen py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center relative">
-      <div className="absolute top-4 right-4 text-[10px] text-gray-700 dark:text-gray-400 italic text-right leading-tight">
-        建议使用手机浏览器<br />收藏并打开链接
+      <div className="absolute top-4 right-4 flex items-center gap-3">
+        <button
+          onClick={() => {
+            if (navigator.share) {
+              navigator.share({
+                title: '支持Fabel，请大家多安利《破碎的爱》~',
+                text: '《破碎的爱》官方链接导航页',
+                url: window.location.href
+              }).catch(() => {
+                // 如果分享失败，复制链接到剪贴板
+                navigator.clipboard.writeText(window.location.href);
+                alert('链接已复制到剪贴板');
+              });
+            } else {
+              // 不支持原生分享，复制链接到剪贴板
+              navigator.clipboard.writeText(window.location.href);
+              alert('链接已复制到剪贴板');
+            }
+          }}
+          className="w-8 h-8 rounded-full bg-white/80 dark:bg-gray-800/80 shadow-md flex items-center justify-center text-lg transition-transform hover:scale-110 active:scale-95 border border-primary/10"
+          title="分享网页"
+        >
+          🔗
+        </button>
+        <div className="text-[10px] text-gray-700 dark:text-gray-400 italic text-right leading-tight">
+          请大家将该网页分享给更多同担<br />同时，建议使用手机浏览器<br />收藏并打开链接
+        </div>
       </div>
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
