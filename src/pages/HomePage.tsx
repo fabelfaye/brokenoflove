@@ -188,9 +188,9 @@ const bilibiliLinks: LinkItemData[] = [
 const HomePage: React.FC = () => {
   return (
     <div className="gradient-bg min-h-screen py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center relative">
-      <div className="absolute top-4 right-4 flex flex-col items-center gap-2">
-        <div className="text-[10px] text-gray-700 dark:text-gray-400 italic text-center leading-tight">
-          请大家将该网页分享给更多同担<br />同时，建议使用手机浏览器<br />收藏并打开链接
+      <div className="absolute top-4 right-4 flex items-center gap-2">
+        <div className="text-[10px] text-gray-700 dark:text-gray-400 italic whitespace-nowrap">
+          欢迎分享网页，建议使用手机浏览器收藏并打开链接
         </div>
         <button
           onClick={() => {
@@ -210,7 +210,7 @@ const HomePage: React.FC = () => {
               alert('链接已复制到剪贴板');
             }
           }}
-          className="w-8 h-8 rounded-full bg-white/80 dark:bg-gray-800/80 shadow-md flex items-center justify-center text-lg transition-transform hover:scale-110 active:scale-95 border border-primary/10"
+          className="w-8 h-8 rounded-full bg-white/80 dark:bg-gray-800/80 shadow-md flex items-center justify-center text-lg transition-transform hover:scale-110 active:scale-95 border border-primary/10 flex-shrink-0"
           title="分享网页"
         >
           🔗
@@ -234,6 +234,18 @@ const HomePage: React.FC = () => {
             transition={{ delay: 0.05 }}
           >
             <LinkGroup title="Youtube" links={youtubeLinks} variant="grid" />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.08 }}
+          >
+            <CharacterRelationship 
+              title="《破碎的爱》人物关系图" 
+              imageUrl="https://miaoda-conversation-file.cdn.bcebos.com/user-agir5qfv3pq8/conv-agissxejzbi8/20260331/file-an05d5foo16o.png"
+              defaultOpen={false}
+            />
           </motion.div>
 
           <motion.div
