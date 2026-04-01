@@ -264,14 +264,6 @@ const HomePage: React.FC = () => {
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-          >
-            <LinkGroup title="抖音" links={douyinLinks} variant="grid" />
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15 }}
           >
             <LinkGroup title="B站" links={bilibiliLinks} variant="grid" />
@@ -285,6 +277,14 @@ const HomePage: React.FC = () => {
             <LinkGroup title="小红书" links={xhsLinks} variant="grid" />
           </motion.div>
 
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+          >
+            <LinkGroup title="抖音" links={douyinLinks} variant="grid" />
+          </motion.div>
+          
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
