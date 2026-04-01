@@ -27,7 +27,7 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
   variant = 'list'
 }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
-  const [collapsedDates, setCollapsedDates] = useState<Set<string>>(new Set(['3月25日', '3月26日', '3月27日', '3月28日', '3月29日', '3月30日']));
+  const [collapsedDates, setCollapsedDates] = useState<Set<string>>(new Set(['3月25日', '3月26日', '3月27日', '3月28日', '3月29日', '3月30日', '3月31日']));
 
   // Group links by update date
   const groupedLinks: { [key: string]: LinkItemData[] } = {};
@@ -81,8 +81,16 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
                   </svg>
                 </div>
               )}
-              <span className="text-xl font-semibold text-foreground/80">
-                {title === 'Youtube' ? '《破碎的爱》播放平台' : title}
+              <span className={cn(
+                "font-semibold text-foreground/80 whitespace-nowrap",
+                (title === 'Youtube' || title === '小红书' || title === '微博' || title === '抖音' || title === 'B站') ? "text-base" : "text-xl"
+              )}>
+                {title === 'Youtube' && '《破爱》播放平台（周更）'}
+                {title === '小红书' && '小红书~《破爱》物料（日更）'}
+                {title === '微博' && '微博~《破爱》动态（周更）'}
+                {title === '抖音' && '抖音~《破爱》短视频（日更）'}
+                {title === 'B站' && 'B站~《破爱》Re（周更）'}
+                {title !== 'Youtube' && title !== '小红书' && title !== '微博' && title !== '抖音' && title !== 'B站' && title}
               </span>
             </div>
             <ChevronDown 
