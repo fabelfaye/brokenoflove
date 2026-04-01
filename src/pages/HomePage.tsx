@@ -256,7 +256,7 @@ const HomePage: React.FC = () => {
           >
             <CharacterRelationship 
               title="《破碎的爱》人物关系图" 
-              imageUrl="https://miaoda-conversation-file.cdn.bcebos.com/user-agir5qfv3pq8/conv-agissxejzbi8/20260331/file-an05d5foo16o.png"
+              imageUrl="https://miaoda-conversation-file.cdn.bcebos.com/user-agir5qfv3pq8/conv-agissxejzbi8/20260401/file-anr4axmg1ssg.png"
               defaultOpen={false}
             />
           </motion.div>
