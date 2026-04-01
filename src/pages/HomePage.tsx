@@ -62,6 +62,9 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
+  { title: '一脸正经..', url: 'https://weibo.com/6538765269/QyMAynTSJ?refer_flag=1001030103_', updateDate: '4月1日' },
+  { title: '在意一个..', url: 'https://weibo.com/5044454536/QyLPpahJE?refer_flag=1001030103_', updateDate: '4月1日' },
+  { title: '抽象妻妻..', url: 'https://weibo.com/7949018248/QyLavx3tY?refer_flag=1001030103_', updateDate: '4月1日' },
   { title: '咋起这么早...', url: 'https://weibo.com/7949018248/QyBeafKdD?refer_flag=1001030103_', updateDate: '3月31日' },
   { title: '大清早更新...', url: 'https://weibo.com/2258164024/QyAYC6Bk1?refer_flag=1001030103_', updateDate: '3月31日' },
   { title: '桃桃妈妈给...', url: 'https://weibo.com/3401457390/QyAVApZb6?refer_flag=1001030103_', updateDate: '3月31日' },
