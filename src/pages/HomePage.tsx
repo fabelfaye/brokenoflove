@@ -109,7 +109,6 @@ const douyinLinks: LinkItemData[] = [
   { title: '鴨鴨真的..', url: 'https://www.douyin.com/video/7623338153902005169', updateDate: '4月1日' },
   { title: '两个搞笑..', url: 'https://www.douyin.com/video/7623617855964033138', updateDate: '4月1日' },
   { title: '泰百新剧..', url: 'https://www.douyin.com/video/7623109448228431098', updateDate: '4月1日' },
-  
   { title: '给你妹影分...', url: 'https://www.douyin.com/video/7623216335484445096', updateDate: '3月31日' },
   { title: '她自己的歌...', url: 'https://www.douyin.com/video/7623154361459543412', updateDate: '3月31日' },
   { title: '疯了都疯了...', url: 'https://www.douyin.com/video/7623109448228431098', updateDate: '3月31日' },
@@ -158,6 +157,9 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
+  { title: '给姐都迷..', url: 'https://www.bilibili.com/video/BV1W595BmEQC', updateDate: '4月1日' },
+  { title: '破碎的爱..', url: 'https://www.bilibili.com/video/BV1kk9LB7E1s', updateDate: '4月1日' },
+  { title: '自娱自乐..', url: 'https://www.bilibili.com/video/BV1mp93ByEo3', updateDate: '4月1日' },
   { title: '这个有搭档...', url: 'https://www.bilibili.com/video/BV1TkXBBXEnG', updateDate: '3月31日' },
   { title: '万恶丈母娘...', url: 'https://www.bilibili.com/video/BV1giXBBoEjf', updateDate: '3月31日' },
   { title: '想幸福的人...', url: 'https://www.bilibili.com/video/BV1JLXiBYESr', updateDate: '3月31日' },
