@@ -5,6 +5,9 @@ import { CharacterRelationship } from '@/components/CharacterRelationship';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
+  { title: '这是我家..', url: 'https://www.xiaohongshu.com/explore/69cc8898000000001e00d5e9', updateDate: '4月1日' },
+  { title: '共享水杯..', url: 'https://www.xiaohongshu.com/explore/69cc6b3c00000000210123be', updateDate: '4月1日' },
+  { title: '美到心巴..', url: 'https://www.xiaohongshu.com/explore/69ccaee50000000023026ca7', updateDate: '4月1日' },
   { title: 'BOL新梗诞生...', url: 'https://www.xiaohongshu.com/explore/69cae2f0000000001f001366', updateDate: '3月31日' },
   { title: '憨憨也是恋...', url: 'https://www.xiaohongshu.com/explore/69cab0ff000000002202abe8', updateDate: '3月31日' },
   { title: '新meme出現...', url: 'https://www.xiaohongshu.com/explore/69caa6dc0000000022026bb7', updateDate: '3月31日' },
