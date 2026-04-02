@@ -85,11 +85,11 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
                 "font-semibold text-foreground/80 whitespace-nowrap",
                 (title === 'Youtube' || title === '小红书' || title === '微博' || title === '抖音' || title === 'B站') ? "text-base" : "text-xl"
               )}>
-                {title === 'Youtube' && '《破爱》播放平台（周更）'}
-                {title === '小红书' && '小红书~《破爱》物料（日更）'}
-                {title === '微博' && '微博~《破爱》动态（周更）'}
-                {title === '抖音' && '抖音~《破爱》短视频（日更）'}
-                {title === 'B站' && 'B站~《破爱》Re（周更）'}
+                {title === 'Youtube' && '《破爱》播放平台'}
+                {title === '小红书' && '小红书~《破爱》物料'}
+                {title === '微博' && '微博~《破爱》动态'}
+                {title === '抖音' && '抖音~《破爱》短视频'}
+                {title === 'B站' && 'B站~《破爱》Re'}
                 {title !== 'Youtube' && title !== '小红书' && title !== '微博' && title !== '抖音' && title !== 'B站' && title}
               </span>
             </div>
