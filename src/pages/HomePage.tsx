@@ -10,8 +10,7 @@ const xhsLinks: LinkItemData[] = [
   { title: '白月光回归', url: 'https://www.xiaohongshu.com/explore/69c7ffb9000000002200e9b2', updateDate: 'EP1二创' },
   { title: '好唯美啊', url: 'https://www.xiaohongshu.com/explore/69c9b6680000000023027456', updateDate: 'EP1二创' },
   { title: '都回来了', url: 'https://www.xiaohongshu.com/explore/69c622890000000028008cc5', updateDate: 'EP1二创' },
-  { title: '姬圈天菜', url: 'https://www.xiaohongshu.com/explore/69c88cb2000000001a024cbf', updateDate: 'EP1二创' },
-  
+  { title: '姬圈天菜', url: 'https://www.xiaohongshu.com/explore/69c88cb2000000001a024cbf', updateDate: 'EP1二创' },  
   { title: '共享水杯', url: 'https://www.xiaohongshu.com/explore/69cc6b3c00000000210123be', updateDate: '首映礼相关' },
   { title: 'TOPFAYE', url: 'https://www.xiaohongshu.com/explore/69c659c3000000002102fcdd', updateDate: '首映礼相关' },
   { title: '法桃抱抱', url: 'https://www.xiaohongshu.com/explore/69c6cd18000000001a02f6d3', updateDate: '首映礼相关' },
