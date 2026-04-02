@@ -89,7 +89,7 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
                 {title === '小红书' && '小红书~《破爱》周边物料'}
                 {title === '微博' && '微博~《破爱》官方动态'}
                 {title === '抖音' && '抖音~《破爱》短视频'}
-                {title === 'B站' && 'B站~《破爱》Re'}
+                {title === 'B站' && 'B站~《破爱》Reaction'}
                 {title !== 'Youtube' && title !== '小红书' && title !== '微博' && title !== '抖音' && title !== 'B站' && title}
               </span>
             </div>
