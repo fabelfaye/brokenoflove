@@ -100,9 +100,6 @@ const weiboLinks: LinkItemData[] = [
   { title: '破碎的爱播...', url: 'https://weibo.com/5538309841/QxPALthiu?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: '剧集更新时...', url: 'https://weibo.com/7949018248/QxLfJw25b?refer_flag=1001030103_', updateDate: '3月26日' },
   { title: '破碎的爱精...', url: 'https://weibo.com/7912896145/QxMrpyW8u?refer_flag=1001030103_', updateDate: '3月26日' },
-  { title: '【破碎的爱】Broken Of Love', url: 'https://weibo.com/7392264056/QvJA88i6v?refer_flag=1001030103_', updateDate: '3月25日' },
-  { title: '《Broken Of Love 破碎的爱》', url: 'https://weibo.com/5158442910/QvUC82ZG5?refer_flag=1001030103_', updateDate: '3月25日' },
-  { title: '"每个人都是好人"', url: 'https://weibo.com/5165706091/QxiZk67ZA?refer_flag=1001030103_', updateDate: '3月25日' },
 ];
 
 const douyinLinks: LinkItemData[] = [
