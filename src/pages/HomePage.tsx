@@ -62,20 +62,20 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
-  { title: 'EP2预告图片', url: 'https://weibo.com/7985880343/QyD7hyg2B'},
-  { title: 'EP1预告图片.', url: 'https://weibo.com/7985880343/QylF9d0Nn' },
-  { title: 'EP1预告视频', url: 'https://weibo.com/7985880343/QykOUsthl' },
-  { title: '播放日历', url: 'https://weibo.com/7985880343/Qyar7yqlq' },
-  { title: '海报Arisa', url: 'https://weibo.com/7985880343/QxKtRsYF4' },  
-  { title: '海报Lalin', url: 'https://weibo.com/7985880343/QxBa62fCm' },  
-  { title: '海报King', url: 'https://weibo.com/7985880343/QxrZ3rVHG' },  
-  { title: '海报Aiy', url: 'https://weibo.com/7985880343/QxrDvsjD5' },  
-  { title: '海报Kevin', url: 'https://weibo.com/7985880343/QxivQpylO' },  
-  { title: '海报Wit', url: 'https://weibo.com/7985880343/Qxi7iedPw' }, 
-  { title: '海报Mek', url: 'https://weibo.com/7985880343/Qx9yo2X7C' },  
-  { title: '海报Weiling', url: 'https://weibo.com/7985880343/Qx9ePz8mB' },  
-  { title: '海报Faye', url: 'https://weibo.com/7985880343/QwN4HeM9y' },  
-  { title: '海报Atom', url: 'https://weibo.com/7985880343/QwDFZ3zZb' },  
+  { title: 'EP2预告图片', url: 'https://weibo.com/7985880343/QyD7hyg2B', updateDate: '预告' },
+  { title: 'EP1预告图片.', url: 'https://weibo.com/7985880343/QylF9d0Nn', updateDate: '预告'  },
+  { title: 'EP1预告视频', url: 'https://weibo.com/7985880343/QykOUsthl', updateDate: '预告' },
+  { title: '播放日历', url: 'https://weibo.com/7985880343/Qyar7yqlq', updateDate: '播放日历' },
+  { title: '海报Arisa', url: 'https://weibo.com/7985880343/QxKtRsYF4', updateDate: '官方海报' },  
+  { title: '海报Lalin', url: 'https://weibo.com/7985880343/QxBa62fCm', updateDate: '官方海报' },  
+  { title: '海报King', url: 'https://weibo.com/7985880343/QxrZ3rVHG', updateDate: '官方海报' },  
+  { title: '海报Aiy', url: 'https://weibo.com/7985880343/QxrDvsjD5', updateDate: '官方海报' },  
+  { title: '海报Kevin', url: 'https://weibo.com/7985880343/QxivQpylO', updateDate: '官方海报' },  
+  { title: '海报Wit', url: 'https://weibo.com/7985880343/Qxi7iedPw', updateDate: '官方海报' }, 
+  { title: '海报Mek', url: 'https://weibo.com/7985880343/Qx9yo2X7C', updateDate: '官方海报' },  
+  { title: '海报Weiling', url: 'https://weibo.com/7985880343/Qx9ePz8mB', updateDate: '官方海报' },  
+  { title: '海报Faye', url: 'https://weibo.com/7985880343/QwN4HeM9y', updateDate: '官方海报' },  
+  { title: '海报Atom', url: 'https://weibo.com/7985880343/QwDFZ3zZb', updateDate: '官方海报' },  
 ];
 
 const douyinLinks: LinkItemData[] = [
