@@ -154,9 +154,9 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
-  { title: '珊猫是好猫', url: 'https://www.bilibili.com/video/BV1zpXSBKErb', updateDate: '4月1日' },
-  { title: '得闲嘚吧嘚', url: 'https://www.bilibili.com/video/BV1d8XSB8EwX', updateDate: '4月1日' },
-  { title: '二月初升', url: 'https://www.bilibili.com/video/BV1cYXUB6EQv', updateDate: '4月1日' },
+  { title: '珊猫是好猫', url: 'https://www.bilibili.com/video/BV1zpXSBKErb', updateDate: 'EP1 Re' },
+  { title: '得闲嘚吧嘚', url: 'https://www.bilibili.com/video/BV1d8XSB8EwX', updateDate: 'EP1 Re' },
+  { title: '二月初升', url: 'https://www.bilibili.com/video/BV1cYXUB6EQv', updateDate: 'EP1 Re' },
   { title: '这个有搭档...', url: 'https://www.bilibili.com/video/BV1TkXBBXEnG', updateDate: '3月31日' },
   { title: '万恶丈母娘...', url: 'https://www.bilibili.com/video/BV1giXBBoEjf', updateDate: '3月31日' },
   { title: '想幸福的人...', url: 'https://www.bilibili.com/video/BV1JLXiBYESr', updateDate: '3月31日' },
