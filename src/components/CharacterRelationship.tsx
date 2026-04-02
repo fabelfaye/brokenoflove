@@ -34,7 +34,7 @@ export const CharacterRelationship: React.FC<CharacterRelationshipProps> = ({
             <div className="flex items-center gap-3">
               <span className="text-2xl">📊</span>
               <span className="text-base font-semibold text-foreground/80 whitespace-nowrap">
-                《破爱》人物关系图（周更）
+                《破爱》人物关系图
               </span>
             </div>
             <ChevronDown 
