@@ -114,7 +114,7 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
                     <div className="flex-grow border-t border-border/40"></div>
                     <div className="flex items-center gap-2 flex-shrink mx-4">
                       <span className="text-[10px] text-muted-foreground/70 font-medium tracking-widest uppercase">
-                        {date}更新
+                        {date}
                       </span>
                       <ChevronDown 
                         className={cn(
