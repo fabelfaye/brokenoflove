@@ -5,11 +5,14 @@ import { CharacterRelationship } from '@/components/CharacterRelationship';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
-  { title: '这是我家..', url: 'https://www.xiaohongshu.com/explore/69cc8898000000001e00d5e9', updateDate: 'EP1二创' },
-  { title: '共享水杯..', url: 'https://www.xiaohongshu.com/explore/69cc6b3c00000000210123be', updateDate: 'EP1二创' },
-  { title: '美到心巴..', url: 'https://www.xiaohongshu.com/explore/69ccaee50000000023026ca7', updateDate: 'EP1二创' },
-  { title: '这是我家..', url: 'https://www.xiaohongshu.com/explore/69cc8898000000001e00d5e9', updateDate: 'EP1二创' },
-  { title: '共享水杯..', url: 'https://www.xiaohongshu.com/explore/69cc6b3c00000000210123be', updateDate: 'EP1二创' },
+  { title: '剧情有张力', url: 'https://www.xiaohongshu.com/explore/69c59317000000001a03795c', updateDate: 'EP1二创' },
+  { title: '电影级画幅', url: 'https://www.xiaohongshu.com/explore/69c991cd000000002103ad65', updateDate: 'EP1二创' },
+  { title: '白月光回归', url: 'https://www.xiaohongshu.com/explore/69c7ffb9000000002200e9b2', updateDate: 'EP1二创' },
+  { title: '好唯美啊', url: 'https://www.xiaohongshu.com/explore/69c9b6680000000023027456', updateDate: 'EP1二创' },
+  { title: '都回来了', url: 'https://www.xiaohongshu.com/explore/69c622890000000028008cc5', updateDate: 'EP1二创' },
+  { title: '姬圈天菜', url: 'https://www.xiaohongshu.com/explore/69c88cb2000000001a024cbf', updateDate: 'EP1二创' },
+  
+  { title: '共享水杯', url: 'https://www.xiaohongshu.com/explore/69cc6b3c00000000210123be', updateDate: '首映礼相关' },
   { title: 'TOPFAYE', url: 'https://www.xiaohongshu.com/explore/69c659c3000000002102fcdd', updateDate: '首映礼相关' },
   { title: '法桃抱抱', url: 'https://www.xiaohongshu.com/explore/69c6cd18000000001a02f6d3', updateDate: '首映礼相关' },
   { title: '法桃跳舞', url: 'https://www.xiaohongshu.com/explore/69c786e1000000001a02fcb4', updateDate: '首映礼相关' },
@@ -32,16 +35,16 @@ const weiboLinks: LinkItemData[] = [
   { title: 'EP1预告图片', url: 'https://weibo.com/7985880343/QylF9d0Nn', updateDate: '预告'  },
   { title: 'EP1预告视频', url: 'https://weibo.com/7985880343/QykOUsthl', updateDate: '预告' },
   { title: '播放日历', url: 'https://weibo.com/7985880343/Qyar7yqlq', updateDate: '播放日历' },
-  { title: '海报Arisa', url: 'https://weibo.com/7985880343/QxKtRsYF4', updateDate: '官方海报' },  
-  { title: '海报Lalin', url: 'https://weibo.com/7985880343/QxBa62fCm', updateDate: '官方海报' },  
-  { title: '海报King', url: 'https://weibo.com/7985880343/QxrZ3rVHG', updateDate: '官方海报' },  
-  { title: '海报Aiy', url: 'https://weibo.com/7985880343/QxrDvsjD5', updateDate: '官方海报' },  
-  { title: '海报Kevin', url: 'https://weibo.com/7985880343/QxivQpylO', updateDate: '官方海报' },  
-  { title: '海报Wit', url: 'https://weibo.com/7985880343/Qxi7iedPw', updateDate: '官方海报' }, 
-  { title: '海报Mek', url: 'https://weibo.com/7985880343/Qx9yo2X7C', updateDate: '官方海报' },  
-  { title: '海报Weiling', url: 'https://weibo.com/7985880343/Qx9ePz8mB', updateDate: '官方海报' },  
-  { title: '海报Faye', url: 'https://weibo.com/7985880343/QwN4HeM9y', updateDate: '官方海报' },  
-  { title: '海报Atom', url: 'https://weibo.com/7985880343/QwDFZ3zZb', updateDate: '官方海报' },  
+  { title: '海报Arisa', url: 'https://weibo.com/7985880343/QxKtRsYF4', updateDate: '海报' },  
+  { title: '海报Lalin', url: 'https://weibo.com/7985880343/QxBa62fCm', updateDate: '海报' },  
+  { title: '海报King', url: 'https://weibo.com/7985880343/QxrZ3rVHG', updateDate: '海报' },  
+  { title: '海报Aiy', url: 'https://weibo.com/7985880343/QxrDvsjD5', updateDate: '海报' },  
+  { title: '海报Kevin', url: 'https://weibo.com/7985880343/QxivQpylO', updateDate: '海报' },  
+  { title: '海报Wit', url: 'https://weibo.com/7985880343/Qxi7iedPw', updateDate: '海报' }, 
+  { title: '海报Mek', url: 'https://weibo.com/7985880343/Qx9yo2X7C', updateDate: '海报' },  
+  { title: '海报Weiling', url: 'https://weibo.com/7985880343/Qx9ePz8mB', updateDate: '海报' },  
+  { title: '海报Faye', url: 'https://weibo.com/7985880343/QwN4HeM9y', updateDate: '海报' },  
+  { title: '海报Atom', url: 'https://weibo.com/7985880343/QwDFZ3zZb', updateDate: '海报' },  
 ];
 
 const douyinLinks: LinkItemData[] = [
