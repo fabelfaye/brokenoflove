@@ -62,7 +62,7 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
-  { title: 'EP2预告图片', url: 'https://weibo.com/7985880343/Qyar7yqlq'},
+  { title: 'EP2预告图片', url: 'https://weibo.com/7985880343/QyD7hyg2B'},
   { title: 'EP1预告图片.', url: 'https://weibo.com/7985880343/QylF9d0Nn' },
   { title: 'EP1预告视频', url: 'https://weibo.com/7985880343/QykOUsthl' },
   { title: '播放日历', url: 'https://weibo.com/7985880343/Qyar7yqlq' },
