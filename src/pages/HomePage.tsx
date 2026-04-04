@@ -49,6 +49,18 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
+  { title: '鴨鴨看她..', url: 'https://www.douyin.com/video/7624817686581241201', updateDate: '4月4日' },
+  { title: 'Atom想要..', url: 'https://www.douyin.com/video/7624811129840256960', updateDate: '4月4日' },
+  { title: '我着急..', url: 'https://www.douyin.com/video/7624733429020274609', updateDate: '4月4日' },
+  
+  { title: '这对话太..', url: 'https://www.douyin.com/video/7624452476216905014', updateDate: '4月3日' },
+  { title: '亲完就跑..', url: 'https://www.douyin.com/video/7624450961565601066', updateDate: '4月3日' },
+  { title: '她没洗手..', url: 'https://www.douyin.com/video/7624448868733685042', updateDate: '4月3日' },
+  
+  { title: '剪头发..', url: 'https://www.douyin.com/video/7624012317897925995', updateDate: '4月2日' },
+  { title: '这一段甜..', url: 'https://www.douyin.com/video/7623724617208021937', updateDate: '4月2日' },
+  { title: '唯美甜虐..', url: 'https://www.douyin.com/video/7623134584850484480', updateDate: '4月2日' },
+  
   { title: '鴨鴨真的..', url: 'https://www.douyin.com/video/7623338153902005169', updateDate: '4月1日' },
   { title: '两个搞笑..', url: 'https://www.douyin.com/video/7623617855964033138', updateDate: '4月1日' },
   { title: '泰百新剧..', url: 'https://www.douyin.com/video/7623109448228431098', updateDate: '4月1日' },
