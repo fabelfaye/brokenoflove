@@ -27,8 +27,6 @@ const youtubeLinks: LinkItemData[] = [
   { title: '【外网】Fabel油管平台', url: 'https://www.youtube.com/@FabelEntertainment', updateDate: '第一行' },
   { title: '【内网】EP1~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1MSXMBiEV5', updateDate: '第二行' },
   { title: '【内网】EP1~ 真的肥常无语', url: 'https://www.bilibili.com/video/BV1jpXLBMEUy', updateDate: '第二行' },
-  { title: '【内网】EP2~ 葵葵岛种小芒果 待上线', url: 'https://www.bilibili.com/video/BV1MSXMBiEV5', updateDate: '第三行' },
-  { title: '【内网】EP2~ 真的肥常无语 待上线', url: 'https://www.bilibili.com/video/BV1jpXLBMEUy', updateDate: '第三行' },
 ];
 
 const weiboLinks: LinkItemData[] = [
