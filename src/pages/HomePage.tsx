@@ -30,6 +30,7 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
+  { title: '花絮图片', url: 'https://weibo.com/7985880343/QzeGguwgu', updateDate: '预告' },
   { title: 'EP2预告视频', url: 'https://weibo.com/7985880343/QzhafeXAU', updateDate: '预告' },
   { title: 'EP2预告图片', url: 'https://weibo.com/7985880343/QyD7hyg2B', updateDate: '预告' },
   { title: 'EP1预告图片', url: 'https://weibo.com/7985880343/QylF9d0Nn', updateDate: '预告'  },
@@ -99,6 +100,7 @@ const douyinLinks: LinkItemData[] = [
 ];
 
 const bilibiliLinks: LinkItemData[] = [
+  { title: '脏辫姐中翻', url: 'https://www.bilibili.com/video/BV1df9KByEZS', updateDate: 'EP1 Re' },
   { title: '珊猫是好猫', url: 'https://www.bilibili.com/video/BV1zpXSBKErb', updateDate: 'EP1 Re' },
   { title: '得闲嘚吧嘚', url: 'https://www.bilibili.com/video/BV1d8XSB8EwX', updateDate: 'EP1 Re' },
   { title: '二月初升', url: 'https://www.bilibili.com/video/BV1cYXUB6EQv', updateDate: 'EP1 Re' },
