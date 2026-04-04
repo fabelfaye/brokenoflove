@@ -28,7 +28,7 @@ const youtubeLinks: LinkItemData[] = [
   { title: '【内网】EP1~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1MSXMBiEV5', updateDate: '第二行' },
   { title: '【内网】EP1~ 真的肥常无语', url: 'https://www.bilibili.com/video/BV1jpXLBMEUy', updateDate: '第二行' },
   { title: '【中翻】EP2~ 泰甜小剧院', url: 'https://www.bilibili.com/video/BV1L6DuByEb5', updateDate: '第二行' },
-  { title: '【中翻】EP2~ 真的肥常无语 待更新', url: 'https://www.bilibili.com', updateDate: '第二行' },
+  { title: '【中翻】EP2~ 真的肥常无语', url: 'https://www.bilibili.com/video/BV1TVDuBAE9m', updateDate: '第二行' },
 ];
 
 const weiboLinks: LinkItemData[] = [
