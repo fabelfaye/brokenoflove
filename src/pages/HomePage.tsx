@@ -156,7 +156,7 @@ const HomePage: React.FC = () => {
         className="w-full max-w-2xl"
       >
         <ProfileSection 
-          avatarUrl="https://miaoda-conversation-file.cdn.bcebos.com/user-agir5qfv3pq8/conv-agissxejzbi8/20260323/file-agjtmu68uq68.jpg" 
+          avatarUrl="https://miaoda-conversation-file.cdn.bcebos.com/user-agir5qfv3pq8/conv-agissxejzbi8/20260405/file-aqhvfwu7oxs0.png" 
           title="Broken of Love" 
         />
         
