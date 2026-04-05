@@ -132,7 +132,7 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
                       ? date === '第一行' 
                         ? "grid grid-cols-1 gap-2" 
                         : date === '第二行'
-                        ? "grid grid-cols-2 gap-2"
+                        ? "grid grid-cols-3 gap-2"
                         : "grid grid-cols-3 gap-2"
                       : "space-y-3"
                   )}>
