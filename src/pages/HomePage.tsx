@@ -28,7 +28,7 @@ const youtubeLinks: LinkItemData[] = [
   { title: '【内网】EP1~ 真的肥常无语', url: 'https://www.bilibili.com/video/BV1jpXLBMEUy', updateDate: '第二行' },
   { title: '【内网】EP1~ 弯弯泰语组', url: 'https://www.bilibili.com/video/BV1ePDuBuEwd', updateDate: '第二行' },
   { title: '【内网】EP1~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1vJXaB5ELm', updateDate: '第二行' },
-  { title: '【内网】EP2~ 真的肥常无语', url: https://www.bilibili.com/video/BV1TVDuBAE9m', updateDate: '第三行' },
+  { title: '【内网】EP2~ 真的肥常无语', url: 'https://www.bilibili.com/video/BV1TVDuBAE9m', updateDate: '第三行' },
   { title: '【内网】EP2~ 弯弯泰语组', url: 'https://www.bilibili.com/video/BV147DuB8EWo', updateDate: '第三行' },
   { title: '【内网】EP2~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1GuD3BCEhP', updateDate: '第三行' },
 ];
