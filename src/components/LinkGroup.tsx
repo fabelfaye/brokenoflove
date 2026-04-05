@@ -106,7 +106,7 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
           <div className="px-4 pb-6">
             {dates.map((date, dateIdx) => (
               <div key={date} className="mb-4 last:mb-0">
-                {date !== 'default' && date !== '第一行' && date !== '第二行' && (
+                {date !== 'default' && date !== '第一行' && date !== '第二行' && date !== '第三行' && (
                   <div 
                     className="relative flex items-center py-4 mb-2 cursor-pointer group"
                     onClick={() => toggleDateCollapse(date)}
@@ -126,12 +126,14 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
                     <div className="flex-grow border-t border-border/40"></div>
                   </div>
                 )}
-                {(!collapsedDates.has(date) || date === 'default' || date === '第一行' || date === '第二行') && (
+                 {(!collapsedDates.has(date) || date === 'default' || date === '第一行' || date === '第二行' || date === '第三行') && (
                   <div className={cn(
                     finalVariant === 'grid' 
-                      ? date === '第一行' 
+                        ? date === '第一行' 
                         ? "grid grid-cols-1 gap-2" 
                         : date === '第二行'
+                        ? "grid grid-cols-3 gap-2"
+                        : date === '第三行'
                         ? "grid grid-cols-3 gap-2"
                         : "grid grid-cols-3 gap-2"
                       : "space-y-3"
