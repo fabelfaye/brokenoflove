@@ -26,7 +26,11 @@ const xhsLinks: LinkItemData[] = [
 const youtubeLinks: LinkItemData[] = [
   { title: '【外网】Fabel油管平台', url: 'https://www.youtube.com/@FabelEntertainment', updateDate: '第一行' },
   { title: '【内网】EP1~ 真的肥常无语', url: 'https://www.bilibili.com/video/BV1jpXLBMEUy', updateDate: '第二行' },
-  { title: '【内网】EP2~ 真的肥常无语', url: 'https://www.bilibili.com/video/BV1TVDuBAE9m', updateDate: '第二行' },
+  { title: '【内网】EP1~ 弯弯泰语组', url: 'https://www.bilibili.com/video/BV1ePDuBuEwd', updateDate: '第二行' },
+  { title: '【内网】EP1~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1vJXaB5ELm', updateDate: '第二行' },
+  { title: '【内网】EP2~ 真的肥常无语', url: https://www.bilibili.com/video/BV1TVDuBAE9m', updateDate: '第三行' },
+  { title: '【内网】EP2~ 弯弯泰语组', url: 'https://www.bilibili.com/video/BV147DuB8EWo', updateDate: '第三行' },
+  { title: '【内网】EP2~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1GuD3BCEhP', updateDate: '第三行' },
 ];
 
 const weiboLinks: LinkItemData[] = [
@@ -176,7 +180,7 @@ const HomePage: React.FC = () => {
           >
             <CharacterRelationship 
               title="《破碎的爱》人物关系图" 
-              imageUrl="https://miaoda-conversation-file.cdn.bcebos.com/user-agir5qfv3pq8/conv-agissxejzbi8/20260401/file-anr4axmg1ssg.png"
+              imageUrl="https://miaoda-conversation-file.cdn.bcebos.com/user-agir5qfv3pq8/conv-agissxejzbi8/20260405/file-aqsrtezowglc.png"
               defaultOpen={false}
             />
           </motion.div>
