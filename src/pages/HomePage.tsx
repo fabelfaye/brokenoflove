@@ -5,6 +5,10 @@ import { CharacterRelationship } from '@/components/CharacterRelationship';
 import { motion } from 'motion/react';
 
 const xhsLinks: LinkItemData[] = [
+  { title: '顶级冷感', url: 'https://www.xiaohongshu.com/explore/69d1fd1d000000001a025d60', updateDate: 'EP2二创' },
+  { title: '权威的脸', url: 'https://www.xiaohongshu.com/explore/69d46a620000000022026c52', updateDate: 'EP2二创' },
+  { title: '这一段真的', url: 'https://www.xiaohongshu.com/explore/69d129cd000000002003affa', updateDate: 'EP2二创' },
+  { title: '谁才是猎物', url: 'https://www.xiaohongshu.com/explore/69d350fb000000001e00dbc2', updateDate: 'EP2二创' },
   { title: '剧情有张力', url: 'https://www.xiaohongshu.com/explore/69c59317000000001a03795c', updateDate: 'EP1二创' },
   { title: '电影级画幅', url: 'https://www.xiaohongshu.com/explore/69c991cd000000002103ad65', updateDate: 'EP1二创' },
   { title: '白月光回归', url: 'https://www.xiaohongshu.com/explore/69c7ffb9000000002200e9b2', updateDate: 'EP1二创' },
