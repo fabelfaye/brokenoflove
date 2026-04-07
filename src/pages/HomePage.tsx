@@ -58,6 +58,19 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
+  { title: '她两的日常', url: 'https://www.douyin.com/video/7625868978384164723', updateDate: '4月7日' },
+  { title: '咬碎了牙', url: 'https://www.douyin.com/video/7625881962188634959', updateDate: '4月7日' },
+  { title: '这一段的感觉', url: 'https://www.douyin.com/video/7625631692124951461', updateDate: '4月7日' },
+  
+  
+  { title: 'Lalin快跑', url: 'https://www.douyin.com/video/7625660336292674169', updateDate: '4月6日' },
+  { title: '顶级猎手', url: 'https://www.douyin.com/video/7625659673040440561', updateDate: '4月6日' },
+  { title: '互相陪伴', url: 'https://www.douyin.com/video/7624733429020274609', updateDate: '4月6日' },
+   
+  { title: '哄女孩里程碑', url: 'https://www.douyin.com/video/7625004988163679729', updateDate: '4月5日' },
+  { title: '追妻火葬场', url: 'https://www.douyin.com/video/7624922507334150818', updateDate: '4月5日' },
+  { title: '我藏了21年', url: 'https://www.douyin.com/video/7625126616465186277', updateDate: '4月5日' },
+  
   { title: '鴨鴨看她..', url: 'https://www.douyin.com/video/7624817686581241201', updateDate: '4月4日' },
   { title: 'Atom想要..', url: 'https://www.douyin.com/video/7624811129840256960', updateDate: '4月4日' },
   { title: '我着急..', url: 'https://www.douyin.com/video/7624733429020274609', updateDate: '4月4日' },
