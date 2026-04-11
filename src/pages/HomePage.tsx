@@ -41,12 +41,14 @@ const youtubeLinks: LinkItemData[] = [
 ];
 
 const weiboLinks: LinkItemData[] = [
+  { title: 'EP3预告视频', url: 'https://weibo.com/7985880343/QAl4kdai6', updateDate: '预告' },
   { title: 'EP2预告视频', url: 'https://weibo.com/7985880343/QzhafeXAU', updateDate: '预告' },
   { title: 'EP2预告图片', url: 'https://weibo.com/7985880343/QyD7hyg2B', updateDate: '预告' },
   { title: 'EP1预告图片', url: 'https://weibo.com/7985880343/QylF9d0Nn', updateDate: '预告'  },
   { title: 'EP1预告视频', url: 'https://weibo.com/7985880343/QykOUsthl', updateDate: '预告' },
   { title: '花絮图片', url: 'https://weibo.com/7985880343/QzeGguwgu', updateDate: '甜蜜花絮' },
   { title: '给你按摩', url: 'https://weibo.com/7985880343/QzsuUjuCm', updateDate: '甜蜜花絮' },
+  { title: '爱的怀抱', url: 'https://weibo.com/7985880343/QAdbk7ADy', updateDate: '甜蜜花絮' },
   { title: 'Arisa', url: 'https://weibo.com/7985880343/QxKtRsYF4', updateDate: '海报' },  
   { title: 'Lalin', url: 'https://weibo.com/7985880343/QxBa62fCm', updateDate: '海报' },  
   { title: 'King', url: 'https://weibo.com/7985880343/QxrZ3rVHG', updateDate: '海报' },  
