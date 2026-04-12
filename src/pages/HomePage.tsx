@@ -36,8 +36,8 @@ const youtubeLinks: LinkItemData[] = [
   { title: '【内网】EP2~ 弯弯泰语组', url: 'https://www.bilibili.com/video/BV147DuB8EWo', updateDate: '第三行' },
   { title: '【内网】EP2~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1GuD3BCEhP', updateDate: '第三行' },
   { title: '【内网】EP3~ 真的肥常无语', url: 'https://www.bilibili.com/video/BV18YDyBKEuT', updateDate: '第三行' },
-  { title: '【内网】EP3~ 弯弯泰语组（待更新）', url: 'https://www.bilibili.com/video/BV147DuB8EWo', updateDate: '第三行' },
-  { title: '【内网】EP3~ 葵葵岛种小芒果（待更新）', url: 'https://www.bilibili.com/video/BV1GuD3BCEhP', updateDate: '第三行' },
+  { title: '【内网】EP3~ 弯弯泰语组', url: 'https://www.bilibili.com/video/BV12CDyBbEgn', updateDate: '第三行' },
+  { title: '【内网】EP3~ 葵葵岛种小芒果', url: 'https://www.bilibili.com/video/BV1yuD2B8Etm', updateDate: '第三行' },
 ];
 
 const weiboLinks: LinkItemData[] = [
