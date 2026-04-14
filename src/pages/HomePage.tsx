@@ -74,10 +74,25 @@ const weiboLinks: LinkItemData[] = [
 ];
 
 const douyinLinks: LinkItemData[] = [
+  { title: '这段CP最爽', url: 'https://www.douyin.com/video/7628535525963944421', updateDate: '4月14日' },
+  { title: '痛就完了 ', url: 'https://www.douyin.com/video/7628500780547684442', updateDate: '4月14日' },
+  { title: '“欺骗” 破碎的爱', url: 'https://www.douyin.com/video/7628474929642384026', updateDate: '4月14日' },
+   
+  { title: '终于不是一个人', url: 'https://www.douyin.com/video/7628177017309444095', updateDate: '4月13日' },
+  { title: '都说Arisa渣', url: 'https://www.douyin.com/video/7627976325731461819', updateDate: '4月13日' },
+  { title: '愛不釋手', url: 'https://www.douyin.com/video/7627851207860311269', updateDate: '4月13日' },
+  
+  { title: '年下的爱意', url: 'https://www.douyin.com/video/7627531936613079781', updateDate: '4月12日' },
+  { title: '這段微虐了我', url: 'https://www.douyin.com/video/7627559951117300601', updateDate: '4月12日' },
+  { title: '内心动摇了', url: 'https://www.douyin.com/video/7627542175098513253', updateDate: '4月12日' },
+  
+  { title: '爱看这种私下', url: 'https://www.douyin.com/video/7626568573146970816', updateDate: '4月11日' },
+  { title: '首席执行官上线', url: 'https://www.douyin.com/video/7626675147059953765', updateDate: '4月11日' },
+  { title: '日常超甜', url: 'https://www.douyin.com/video/7626653243019603343', updateDate: '4月11日' },
+  
   { title: '她两的日常', url: 'https://www.douyin.com/video/7625868978384164723', updateDate: '4月7日' },
   { title: '咬碎了牙', url: 'https://www.douyin.com/video/7625881962188634959', updateDate: '4月7日' },
   { title: '这一段的感觉', url: 'https://www.douyin.com/video/7625631692124951461', updateDate: '4月7日' },
-  
   
   { title: 'Lalin快跑', url: 'https://www.douyin.com/video/7625660336292674169', updateDate: '4月6日' },
   { title: '顶级猎手', url: 'https://www.douyin.com/video/7625659673040440561', updateDate: '4月6日' },
