@@ -27,7 +27,7 @@ export const LinkGroup: React.FC<LinkGroupProps> = ({
   variant = 'list'
 }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
-  const [collapsedDates, setCollapsedDates] = useState<Set<string>>(new Set(['3月25日', '3月26日', '3月27日', '3月28日', '3月29日', '3月30日', '3月31日']));
+  const [collapsedDates, setCollapsedDates] = useState<Set<string>>(new Set(['3月25日', '3月26日', '3月27日', '3月28日', '3月29日', '3月30日', '3月31日', '4月1日', '4月2日', '4月3日', '4月4日''4月5日', '4月6日', '4月7日']));
 
   // Group links by update date
   const groupedLinks: { [key: string]: LinkItemData[] } = {};
