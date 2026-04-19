@@ -87,7 +87,7 @@ const douyinLinks: LinkItemData[] = [
   { title: '痛就完了 ', url: 'https://www.douyin.com/video/7628500780547684442', updateDate: '第四周' },
   { title: '“欺骗” 破碎的爱', url: 'https://www.douyin.com/video/7628474929642384026', updateDate: '第四周' },
   { title: '终于不是一个人', url: 'https://www.douyin.com/video/7628177017309444095', updateDate: '第四周' },
-  { title: '都说Arisa渣', url: 'https://www.douyin.com/video/7627976325731461819', updateDate: 第四周' },
+  { title: '都说Arisa渣', url: 'https://www.douyin.com/video/7627976325731461819', updateDate: '第四周' },
   { title: '愛不釋手', url: 'https://www.douyin.com/video/7627851207860311269', updateDate: '第四周' },
   { title: '年下的爱意', url: 'https://www.douyin.com/video/7627531936613079781', updateDate: '第四周' },
   { title: '這段微虐了我', url: 'https://www.douyin.com/video/7627559951117300601', updateDate: '第四周' },
