@@ -173,11 +173,7 @@ const douyinLinks: LinkItemData[] = [
   { title: '我想知道哪...', url: 'https://www.douyin.com/video/7620814476829625459', updateDate: '3月25日' },
 ];
 
-const bilibiliLinks: LinkItemData[] = [
-  { title: '得闲嘚吧嘚', url: 'https://www.bilibili.com/video/BV1VnDQBtE7W', updateDate: 'EP3 Re' },
-  { title: '二月初升', url: 'https://www.bilibili.com/video/BV1nZDUBvEU5', updateDate: 'EP3 Re' },
-  { title: '珊猫是好猫', url: 'https://www.bilibili.com/video/BV1KfDXBHE5y', updateDate: 'EP3 Re' },
-  
+const bilibiliLinks: LinkItemData[] = [ 
   { title: '得闲嘚吧嘚', url: 'https://www.bilibili.com/video/BV1VnDQBtE7W', updateDate: 'EP3 Re' },
   { title: '二月初升', url: 'https://www.bilibili.com/video/BV1nZDUBvEU5', updateDate: 'EP3 Re' },
   { title: '珊猫是好猫', url: 'https://www.bilibili.com/video/BV1KfDXBHE5y', updateDate: 'EP3 Re' },
