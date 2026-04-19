@@ -178,7 +178,7 @@ const bilibiliLinks: LinkItemData[] = [
   { title: '二月初升', url: 'https://www.bilibili.com/video/BV1nZDUBvEU5', updateDate: 'EP3 Re' },
   { title: '珊猫是好猫', url: 'https://www.bilibili.com/video/BV1KfDXBHE5y', updateDate: 'EP3 Re' },
   
-  { title: '做个稀巴烂', url: 'https://www.bilibili.com/video/BV1gSdhB1Etb', updateDate: 'EP1-2 Re' },
+  { title: '做个稀巴烂', url: 'https://www.bilibili.com/video/BV1gSdhB1Etb', updateDate: 'EP2 Re' },
   { title: '脏辫姐中翻', url: 'https://www.bilibili.com/video/BV1N7DrBSEa4', updateDate: 'EP2 Re' },
   { title: '珊猫是好猫', url: 'https://www.bilibili.com/video/BV19mSUBEEgz', updateDate: 'EP2 Re' },
   { title: '得闲嘚吧嘚', url: 'https://www.bilibili.com/video/BV1LWSSB9EJZ', updateDate: 'EP2 Re' },
